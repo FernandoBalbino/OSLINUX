@@ -4,6 +4,8 @@
 
 Simulador educativo de Ubuntu 26.04, em português do Brasil, para PC e Chromebook. Todo o funcionamento acontece no navegador; comandos não são executados no computador real.
 
+A entrada usa uma tela no padrão GDM/Ubuntu, com o perfil Aluno e botão Entrar, sem senha. O clique solicita tela cheia ao navegador. Se o navegador bloquear a solicitação, há uma opção de tentar novamente no desktop. Os slides são acessíveis diretamente e o link final passa por essa entrada antes de abrir a trilha.
+
 ## Desenvolvimento
 
 Requer Node.js 22 ou superior e npm/pnpm. Execute `npm install`, depois `npm run dev`. Para verificar a versão final: `npm run build` e `node scripts/serve.mjs`; o endereço padrão é `http://127.0.0.1:4391/`. A saída estática fica em `dist/client`.

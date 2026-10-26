@@ -721,6 +721,18 @@
       "source": "Original OSLINUX QA screenshot, isolated desktop, 1366x768",
       "license": "Screenshot of credited Ubuntu assets and original OSLINUX interface",
       "sha256": "9de9c768bda5722b8a8b4b2a3a38a75fb385d9da33d513328509395945914b2c"
+    },
+    {
+      "file": "symbolic/avatar-default.svg",
+      "source": "https://raw.githubusercontent.com/ubuntu/yaru/7f18973e05607c609c4b972f0dd9bff36fa2a13e/icons/Yaru/scalable/status/avatar-default-symbolic.svg",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "1a1ee59e23cf612ce4a25118d0177a4ab03bd2db3c5ca0768b2c1780baa14099"
+    },
+    {
+      "file": "ubuntu-wordmark.svg",
+      "source": "https://upload.wikimedia.org/wikipedia/commons/6/69/Ubuntu_logo_light-on-dark.svg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+      "license": "Ubuntu trademark, Canonical; original brand asset",
+      "sha256": "93cec3aa7c387953bb9e962945ccfcee08ff3cca78cc8e1105059d12a7630978"
     }
   ]
 }

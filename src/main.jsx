@@ -1,6 +1,6 @@
 import React from "react";
 import { createRoot } from "react-dom/client";
-import { App } from "./App.jsx";
+import {Session} from './ui/Session.jsx';
 import {Slides} from './slides/Slides.jsx';
 import "./desktop.css";
 import "./refinements.css";
@@ -14,6 +14,6 @@ if (import.meta.env.PROD && !new URLSearchParams(location.search).has('qa') && '
 
 createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    {/\/slide\/?$/.test(location.pathname)?<Slides/>:<App />}
+    {/\/slide\/?$/.test(location.pathname)?<Slides/>:<Session />}
   </React.StrictMode>,
 );

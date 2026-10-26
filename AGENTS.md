@@ -10,6 +10,7 @@
 - The beginner trail has exactly 15 sequential missions, the original OSLab robot, event/state validation, and a three-option review with explained red/green feedback. Do not replace practice with direct completion buttons.
 - The /slide presentation follows Aula-TCP-UDP, introduces Linux and Ubuntu with Windows comparisons, and ends by highlighting the exact trail icon. The five added missions cover Wi-Fi, brightness, a sum, App Center and a simulated Chrome .deb download.
 - System context menus must replace the browser menu inside the desktop. Preserve smooth transitions and reduced-motion support.
+- Before every normal simulator session, show an Ubuntu GDM-style greeter with the single Aluno profile, no password field, and only an Entrar action. Request browser fullscreen directly in that click. Keep /slide independent; its final link goes through login before opening the trail. Deterministic desktop QA scenes may bypass login; ?qa=login captures it.
 
 Run the local server yourself and open the preview in the browser available to this environment. Do not give the user server-start instructions when you can run it.
 

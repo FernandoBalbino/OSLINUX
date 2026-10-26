@@ -2,6 +2,8 @@
 
 ## Ubuntu, Yaru e GNOME
 
+A tela de entrada segue a estrutura do GDM/Yaru, consultada no upstream `_login-lock.scss` e na documentação oficial Ubuntu/ADSys. O avatar simbólico é Yaru original. A marca Ubuntu 2022 para fundo escuro é um asset original Canonical disponibilizado pelo Wikimedia Commons; o manifesto registra o URL e hash. A adaptação sem senha e com botão Entrar foi solicitada para o simulador educativo.
+
 Os ícones e cursores Yaru são de seus respectivos autores, derivados de Suru/Unity8 e outros projetos documentados pelo upstream. São distribuídos sob CC BY-SA 4.0, preservada em `public/assets/licenses/Yaru.txt`. Fonte: https://github.com/ubuntu/yaru, commit `7f18973e05607c609c4b972f0dd9bff36fa2a13e`. O manifesto `asset-sources.json` registra os arquivos individuais e seus hashes.
 
 Os três cursores PNG de 32×32 são as versões Yaru usadas pelo simulador de referência, obtidas do recurso público observado em https://meulinux.com/sim-assets/ubuntu/cursors/. São mantidos localmente com os hotspots originais (seta: 5,5; mão: 10,6; texto: 14,15). O código JavaScript/CSS do meuLinux não foi incorporado.

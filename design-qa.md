@@ -60,3 +60,11 @@ Firefox e Chrome navegam somente por páginas locais simuladas. Tempo mostra val
 GitHub Actions executou `npm ci`, build, os 45 testes e deploy com sucesso no commit `a676f21`. Os endereços públicos do simulador, `/slide/`, ícone, robô e service worker responderam HTTP 200. No navegador público, o último slide abriu a trilha com 15 missões; não houve imagens ausentes, overflow horizontal ou erros de console. Capturas: `public-final-slide.png` e `public-trail.png`.
 
 O cache offline foi validado no build de produção local, interrompendo o servidor de propósito: recarga dos slides, navegação ao desktop e abertura da trilha funcionaram com todos os assets locais. A correção de fallback específica de `/slide/` foi publicada. `offline-slide.png` e `offline-trail.png` registram o resultado. O cache público também foi preparado; não foi desligada a conexão real do computador do usuário.
+
+## Entrada Aluno e tela cheia
+
+Adição solicitada após a primeira publicação: greeter inspirado em GDM/Yaru, fundo cinza escuro, avatar Yaru original, perfil Aluno, marca Ubuntu para fundo escuro e somente o botão Entrar. Não há campo de senha. `/slide/` continua independente; seu link final abre a entrada e, após Entrar, a trilha.
+
+O clique foi testado no navegador: o desktop apareceu e `:fullscreen` correspondeu ao elemento HTML. A solicitação ocorre antes de qualquer espera ou atualização de estado. Se um navegador recusar, o desktop permanece acessível e oferece nova tentativa. Recarregar volta à entrada, preservando os dados e o progresso. `?qa=login` fixa o relógio; as cenas antigas de QA continuam isoladas e podem abrir o desktop diretamente.
+
+48 testes passaram após essa adição. A captura `login-1366.png` registra a entrada em 1366×768.
