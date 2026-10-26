@@ -1,0 +1,720 @@
+{
+  "yaruCommit": "7f18973e05607c609c4b972f0dd9bff36fa2a13e",
+  "wallpaperVersion": "26.04.2",
+  "assets": [
+    {
+      "file": "apps/disk-usage-app.png",
+      "source": "https://raw.githubusercontent.com/ubuntu/yaru/7f18973e05607c609c4b972f0dd9bff36fa2a13e/icons/Yaru/256x256/apps/disk-usage-app.png",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "764419910632cf4aba98483f014b035cc6aa1283b8d57a6a59198c02b94555a5"
+    },
+    {
+      "file": "apps/disk-utility-app.png",
+      "source": "https://raw.githubusercontent.com/ubuntu/yaru/7f18973e05607c609c4b972f0dd9bff36fa2a13e/icons/Yaru/256x256/apps/disk-utility-app.png",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "7b1e25ef065d3de79ec9daade0a29765940993439f8cbb3cea1daf8bb8717d1e"
+    },
+    {
+      "file": "apps/file-roller.png",
+      "source": "https://raw.githubusercontent.com/ubuntu/yaru/7f18973e05607c609c4b972f0dd9bff36fa2a13e/icons/Yaru/256x256/apps/file-roller.png",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "02bc9158bf4d6598d00774f3ea80ec61c626297ff369e8c4afe7e25a156bca33"
+    },
+    {
+      "file": "apps/firefox.svg",
+      "source": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Firefox_logo%2C_2019.svg",
+      "license": "Mozilla trademark; MPL-2.0 artwork",
+      "sha256": "f31b10673f2e62510a18cb79c32555d88aa806ede13b128e3e7e3072bfc05cbc"
+    },
+    {
+      "file": "apps/google-chrome.svg",
+      "source": "https://upload.wikimedia.org/wikipedia/commons/e/e1/Google_Chrome_icon_%28February_2022%29.svg",
+      "license": "Google Chrome trademark; see upstream SVG metadata",
+      "sha256": "2bb1a2c9b9ae4d36f62ea53811554636cf3c5b74d9845e1dbacca0ce62dc7880"
+    },
+    {
+      "file": "apps/gparted.png",
+      "source": "https://raw.githubusercontent.com/ubuntu/yaru/7f18973e05607c609c4b972f0dd9bff36fa2a13e/icons/Yaru/256x256/apps/gparted.png",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "e01f3aadb741283ce22b2416119ecc01a8a7cfffc7184220358c12faacc671d6"
+    },
+    {
+      "file": "apps/libreoffice-calc.png",
+      "source": "https://raw.githubusercontent.com/ubuntu/yaru/7f18973e05607c609c4b972f0dd9bff36fa2a13e/icons/Yaru/256x256/apps/libreoffice-calc.png",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "c00facfb133d190aba15c7bb098434f8867f29a71460cfb41bb63f7a06da80bb"
+    },
+    {
+      "file": "apps/libreoffice-draw.png",
+      "source": "https://raw.githubusercontent.com/ubuntu/yaru/7f18973e05607c609c4b972f0dd9bff36fa2a13e/icons/Yaru/256x256/apps/libreoffice-draw.png",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "005ec255cedf258dc036535a256443932ec6ddd9ef89f5a1982f784ceb24cbc8"
+    },
+    {
+      "file": "apps/libreoffice-impress.png",
+      "source": "https://raw.githubusercontent.com/ubuntu/yaru/7f18973e05607c609c4b972f0dd9bff36fa2a13e/icons/Yaru/256x256/apps/libreoffice-impress.png",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "a31d14adb4aeeb1b61000f0da427908c99a0583e1b80678f3649438e4f4026db"
+    },
+    {
+      "file": "apps/libreoffice-main.png",
+      "source": "https://raw.githubusercontent.com/ubuntu/yaru/7f18973e05607c609c4b972f0dd9bff36fa2a13e/icons/Yaru/256x256/apps/libreoffice-main.png",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "cabd1f0b767376328981051eea08e08e76e694e1b37b0adfe332ed234f5918a8"
+    },
+    {
+      "file": "apps/libreoffice-writer.png",
+      "source": "https://raw.githubusercontent.com/ubuntu/yaru/7f18973e05607c609c4b972f0dd9bff36fa2a13e/icons/Yaru/256x256/apps/libreoffice-writer.png",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "8e7cc98f890f9a72f3a32d6e7bb306b09db1ace99697647aed63690e3e428fb1"
+    },
+    {
+      "file": "apps/log-viewer-app.png",
+      "source": "https://raw.githubusercontent.com/ubuntu/yaru/7f18973e05607c609c4b972f0dd9bff36fa2a13e/icons/Yaru/256x256/apps/log-viewer-app.png",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "291aa25f04e73e7ef15cc43d996579fdfdb53a3f6c77539129b44f394efae251"
+    },
+    {
+      "file": "apps/net.nokyan.Resources.png",
+      "source": "https://raw.githubusercontent.com/ubuntu/yaru/7f18973e05607c609c4b972f0dd9bff36fa2a13e/icons/Yaru/256x256/apps/net.nokyan.Resources.png",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "132478d9bb33a1610c9c042a124af72f6088e46dd96f6d3a1fabf6ce6f58afa6"
+    },
+    {
+      "file": "apps/org.gnome.Calculator.png",
+      "source": "https://raw.githubusercontent.com/ubuntu/yaru/7f18973e05607c609c4b972f0dd9bff36fa2a13e/icons/Yaru/256x256/apps/calculator-app.png",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "80329e7861835e0fc197b0965a74562b1f17319996c452f6a835684f35daad04"
+    },
+    {
+      "file": "apps/org.gnome.Calendar.png",
+      "source": "https://raw.githubusercontent.com/ubuntu/yaru/7f18973e05607c609c4b972f0dd9bff36fa2a13e/icons/Yaru/256x256/apps/calendar-app.png",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "cd97731bf61caa1a3fc166b6c57107a2279c843000532003b2abe489968e7fc5"
+    },
+    {
+      "file": "apps/org.gnome.Characters.png",
+      "source": "https://raw.githubusercontent.com/ubuntu/yaru/7f18973e05607c609c4b972f0dd9bff36fa2a13e/icons/Yaru/256x256/apps/accessories-character-map.png",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "aa341361604da82da2d36cade3af7a4dea564f2adc077efa3f47721b072348f5"
+    },
+    {
+      "file": "apps/org.gnome.Loupe.png",
+      "source": "https://raw.githubusercontent.com/ubuntu/yaru/7f18973e05607c609c4b972f0dd9bff36fa2a13e/icons/Yaru/256x256/apps/org.gnome.Loupe.png",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "a9f991699ad9310ab000af06573b48537ba0c8fc932ce83a6775f4d2272c6ae5"
+    },
+    {
+      "file": "apps/org.gnome.Nautilus.png",
+      "source": "https://raw.githubusercontent.com/ubuntu/yaru/7f18973e05607c609c4b972f0dd9bff36fa2a13e/icons/Yaru/256x256/apps/filemanager-app.png",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "9d365a6ebdef5d41004708fb24cfcddeed4a132814fb173c8c9eca007a08f4ff"
+    },
+    {
+      "file": "apps/org.gnome.Papers.png",
+      "source": "https://raw.githubusercontent.com/ubuntu/yaru/7f18973e05607c609c4b972f0dd9bff36fa2a13e/icons/Yaru/256x256/apps/papers.png",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "998f2026927fcde1bb2d09598616ff3b41679443a6a4e23077d19e24d65145f2"
+    },
+    {
+      "file": "apps/org.gnome.Ptyxis.png",
+      "source": "https://raw.githubusercontent.com/ubuntu/yaru/7f18973e05607c609c4b972f0dd9bff36fa2a13e/icons/Yaru/256x256/apps/terminal-app2.png",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "b220e4f79b0e6492595c1d2e1ce828055e5721dec842f4eda1fea9833e6f4729"
+    },
+    {
+      "file": "apps/org.gnome.Rhythmbox3.png",
+      "source": "https://raw.githubusercontent.com/ubuntu/yaru/7f18973e05607c609c4b972f0dd9bff36fa2a13e/icons/Yaru/256x256/apps/rhythmbox.png",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "b8bc2beae7bee71c318993c2fc8491e2c0583c3d91bcfc6bb831a9f2f4f6fc46"
+    },
+    {
+      "file": "apps/org.gnome.Settings.png",
+      "source": "https://raw.githubusercontent.com/ubuntu/yaru/7f18973e05607c609c4b972f0dd9bff36fa2a13e/icons/Yaru/256x256/apps/system-settings.png",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "5aefa50193757fd7bde01fe00727820b7479d7e4c73af3f3c1cb4fde6b3c48c0"
+    },
+    {
+      "file": "apps/org.gnome.Shotwell.png",
+      "source": "https://raw.githubusercontent.com/ubuntu/yaru/7f18973e05607c609c4b972f0dd9bff36fa2a13e/icons/Yaru/256x256/apps/shotwell.png",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "970e3e937354419d552f0614b66c9ecfd0c9f0ca1aeb0e51fea7a650b9b62008"
+    },
+    {
+      "file": "apps/org.gnome.Showtime.png",
+      "source": "https://raw.githubusercontent.com/ubuntu/yaru/7f18973e05607c609c4b972f0dd9bff36fa2a13e/icons/Yaru/256x256/apps/org.gnome.Showtime.png",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "b9f2926ff689f6130fcdf7a4c5e632e1449fdebdf5f6facc1616403241f7186b"
+    },
+    {
+      "file": "apps/org.gnome.Snapshot.png",
+      "source": "https://raw.githubusercontent.com/ubuntu/yaru/7f18973e05607c609c4b972f0dd9bff36fa2a13e/icons/Yaru/256x256/apps/org.gnome.Snapshot.png",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "368913e0c83696e7bc5e36ae20c256c14ff4dcb07d39011df1e142214123d52e"
+    },
+    {
+      "file": "apps/org.gnome.TextEditor.png",
+      "source": "https://raw.githubusercontent.com/ubuntu/yaru/7f18973e05607c609c4b972f0dd9bff36fa2a13e/icons/Yaru/256x256/apps/org.gnome.TextEditor.png",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "e2f248ea3b087461a38a426888ed0c2d32136514241a421ab50646e05ff2842f"
+    },
+    {
+      "file": "apps/org.gnome.Weather.png",
+      "source": "https://raw.githubusercontent.com/ubuntu/yaru/7f18973e05607c609c4b972f0dd9bff36fa2a13e/icons/Yaru/256x256/apps/weather-app.png",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "c11fb2595e9ec164aed1e6789a57e66b55cbd4ff75cb6c230897a071023f8d49"
+    },
+    {
+      "file": "apps/org.gnome.Yelp.png",
+      "source": "https://raw.githubusercontent.com/ubuntu/yaru/7f18973e05607c609c4b972f0dd9bff36fa2a13e/icons/Yaru/256x256/apps/help-app.png",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "bab879ecb1acafe55bd5010a293093cd212c1d014067440a8e5b22f079fdd801"
+    },
+    {
+      "file": "apps/org.gnome.clocks.png",
+      "source": "https://raw.githubusercontent.com/ubuntu/yaru/7f18973e05607c609c4b972f0dd9bff36fa2a13e/icons/Yaru/256x256/apps/clock-app.png",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "67f0305ee06eebe8781934c22538bfdad3a8673570b7712342bdcf29c8f69134"
+    },
+    {
+      "file": "apps/snap-store.png",
+      "source": "https://raw.githubusercontent.com/ubuntu/yaru/7f18973e05607c609c4b972f0dd9bff36fa2a13e/icons/Yaru/256x256/apps/snap-store.png",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "145fb8272b25b13fed7a0505d185cfef338ff57a74d6b8b6bfec9a9752fc13dc"
+    },
+    {
+      "file": "apps/software-properties.png",
+      "source": "https://raw.githubusercontent.com/ubuntu/yaru/7f18973e05607c609c4b972f0dd9bff36fa2a13e/icons/Yaru/256x256/apps/software-properties.png",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "bb9f3d7ff05d937e8fca1a64ee012d289f898663af3469fdb41e37a91c816204"
+    },
+    {
+      "file": "apps/software-updater.png",
+      "source": "https://raw.githubusercontent.com/ubuntu/yaru/7f18973e05607c609c4b972f0dd9bff36fa2a13e/icons/Yaru/256x256/apps/software-updater.png",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "e3ce99ef11202e25b19724f98dd4ee8b19a7526616088a27dec2268fc339dc59"
+    },
+    {
+      "file": "apps/thunderbird.png",
+      "source": "https://www.thunderbird.net/media/img/thunderbird/thunderbird-256.png",
+      "license": "Thunderbird trademark; MPL-2.0 artwork",
+      "sha256": "c64b09547bec63b6742e3810b0df8a23210f33e218345a430c9722822b272157"
+    },
+    {
+      "file": "apps/transmission.png",
+      "source": "https://raw.githubusercontent.com/ubuntu/yaru/7f18973e05607c609c4b972f0dd9bff36fa2a13e/icons/Yaru/256x256/apps/transmission.png",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "f8d997b6253edaedb09e3a3cdad5a8a9f59ce8d23543f373fbde5ef1016fa5c5"
+    },
+    {
+      "file": "apps/usb-creator-gtk.png",
+      "source": "https://raw.githubusercontent.com/ubuntu/yaru/7f18973e05607c609c4b972f0dd9bff36fa2a13e/icons/Yaru/256x256/apps/usb-creator-gtk.png",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "9de6fcbab66b7aed145db9ce16f0c1a1687bc542ede6397f05b8bb8b878d618d"
+    },
+    {
+      "file": "cursors/hand2-32.png",
+      "source": "https://meulinux.com/sim-assets/ubuntu/cursors/hand2-32.png",
+      "license": "Yaru; CC-BY-SA-4.0",
+      "sha256": "5aaeb83e5144a53a3718f1b7199c53ddd64bafe37636eebde2872fe6cfba2f71"
+    },
+    {
+      "file": "cursors/left_ptr-32.png",
+      "source": "https://meulinux.com/sim-assets/ubuntu/cursors/left_ptr-32.png",
+      "license": "Yaru; CC-BY-SA-4.0",
+      "sha256": "ae83deb38d243bdb588b7c45e75ba86aba113e36db7adce432ff8748dec76cfd"
+    },
+    {
+      "file": "cursors/xterm-32.png",
+      "source": "https://meulinux.com/sim-assets/ubuntu/cursors/xterm-32.png",
+      "license": "Yaru; CC-BY-SA-4.0",
+      "sha256": "e818dac49b04351dffe9b3c4515f9e53f9c1101876ce3640ae69c4bc8a6601a4"
+    },
+    {
+      "file": "fonts/BarlowCondensed-Bold.ttf",
+      "source": "https://raw.githubusercontent.com/google/fonts/main/ofl/barlowcondensed/BarlowCondensed-Bold.ttf",
+      "license": "SIL-OFL-1.1",
+      "sha256": "e476562ec9c1e16cf16475895b511f08c804f438cc9a9f80a44ea50a0eeb5b65"
+    },
+    {
+      "file": "fonts/Inter.ttf",
+      "source": "https://raw.githubusercontent.com/google/fonts/main/ofl/inter/Inter%5Bopsz,wght%5D.ttf",
+      "license": "SIL-OFL-1.1",
+      "sha256": "29160a80ff49ddcab2c97711247e08b1fab27a484a329ce8b813d820dc559031"
+    },
+    {
+      "file": "fonts/UbuntuSans.ttf",
+      "source": "https://raw.githubusercontent.com/canonical/Ubuntu-Sans-fonts/main/fonts/variable/UbuntuSans%5Bwdth%2Cwght%5D.ttf",
+      "license": "Ubuntu-Font-License-1.0",
+      "sha256": "37e90bba45a2a1172d9f6078e45daebaa1b4e537943205cc1309f142a254fe40"
+    },
+    {
+      "file": "fonts/UbuntuSansMono.ttf",
+      "source": "https://raw.githubusercontent.com/canonical/Ubuntu-Sans-Mono-fonts/main/fonts/variable/UbuntuSansMono%5Bwght%5D.ttf",
+      "license": "Ubuntu-Font-License-1.0",
+      "sha256": "b27217ddbae92f98c59b31ec122e0b38ab3b3efca6e1edd77cb4300773913d87"
+    },
+    {
+      "file": "google.png",
+      "source": "https://www.google.com/images/branding/googlelogo/1x/googlelogo_light_color_272x92dp.png",
+      "license": "Google trademark",
+      "sha256": "98b840a176ac08d3620d60cf5587e591e1c39963d54f8ced5f14483e0d785e2f"
+    },
+    {
+      "file": "learning/Fluent-LICENSE.txt",
+      "source": "https://github.com/microsoft/fluentui-system-icons",
+      "license": "MIT",
+      "sha256": "69bc45dc42b9acb96a69823adbc6ae538374e3c0bde169b855b32c48eaaef52f"
+    },
+    {
+      "file": "learning/checkmark_circle.svg",
+      "source": "https://github.com/microsoft/fluentui-system-icons",
+      "license": "MIT",
+      "sha256": "0d4604052f37bf6f6fca386f091316c5e9c3733a8b8ad77ce38e1cdc40a9f24e"
+    },
+    {
+      "file": "learning/linux-basics-icon.png",
+      "source": "Original OSLINUX artwork, generated with Image Generation",
+      "license": "Original generated artwork",
+      "sha256": "f6e52403b3c5204d41d33e4be4a221782db1d7fb6a1f356d1059b83a019284e7"
+    },
+    {
+      "file": "learning/oslab-mascot-celebrate.png",
+      "source": "https://github.com/FernandoBalbino/OSLab/tree/main/assets/learning/mascot",
+      "license": "Original OSLab illustration, Fernando Balbino",
+      "sha256": "f6032e1c463b48d63bfe659eaa529f5583c72c9b9d518126ef424300174347b7"
+    },
+    {
+      "file": "learning/oslab-mascot-help.png",
+      "source": "https://github.com/FernandoBalbino/OSLab/tree/main/assets/learning/mascot",
+      "license": "Original OSLab illustration, Fernando Balbino",
+      "sha256": "6627d48c578da4b985a677620b533c8404055da72433f73f7302b0a081280647"
+    },
+    {
+      "file": "learning/oslab-mascot-neutral.png",
+      "source": "https://github.com/FernandoBalbino/OSLab/tree/main/assets/learning/mascot",
+      "license": "Original OSLab illustration, Fernando Balbino",
+      "sha256": "fe1060061211b2189250e9866455d9324c0041c5c17a4ad086089bc2255e7d0a"
+    },
+    {
+      "file": "licenses/BarlowCondensed.txt",
+      "source": "https://raw.githubusercontent.com/google/fonts/main/ofl/barlowcondensed/OFL.txt",
+      "license": "SIL-OFL-1.1",
+      "sha256": "186d750eb496a4c17a76385f82be6aea2ac1cf2de074a811d63786cf374ea73f"
+    },
+    {
+      "file": "licenses/Inter.txt",
+      "source": "https://raw.githubusercontent.com/google/fonts/main/ofl/inter/OFL.txt",
+      "license": "SIL-OFL-1.1",
+      "sha256": "5b9321a4298cfeb6b34354164a1c3afc3db114569984c502b9b35d988fd58c57"
+    },
+    {
+      "file": "licenses/UbuntuSans.txt",
+      "source": "https://raw.githubusercontent.com/canonical/Ubuntu-Sans-fonts/main/LICENCE.txt",
+      "license": "Ubuntu-Font-License-1.0",
+      "sha256": "2f0015108d68627bd788d313f529c21ff4da2c2c42a5e1f3883acc83480f9002"
+    },
+    {
+      "file": "licenses/UbuntuSansMono.txt",
+      "source": "https://raw.githubusercontent.com/canonical/Ubuntu-Sans-Mono-fonts/main/LICENCE.txt",
+      "license": "Ubuntu-Font-License-1.0",
+      "sha256": "2f0015108d68627bd788d313f529c21ff4da2c2c42a5e1f3883acc83480f9002"
+    },
+    {
+      "file": "licenses/Yaru.txt",
+      "source": "https://raw.githubusercontent.com/ubuntu/yaru/7f18973e05607c609c4b972f0dd9bff36fa2a13e/LICENSE_CCBYSA",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "7a8af68d18de818e54697230278c0ade42e6bac15d4116ef9560f74176431118"
+    },
+    {
+      "file": "licenses/wallpapers-copyright.txt",
+      "source": "https://git.launchpad.net/ubuntu/+source/ubuntu-wallpapers/plain/debian/copyright?h=applied/ubuntu/resolute",
+      "license": "Upstream copyright notice",
+      "sha256": "64a09ce41987261953995c073f8ecbb02dae1b6fc189ab52e309f0fc8544e86b"
+    },
+    {
+      "file": "places/folder-documents.png",
+      "source": "https://raw.githubusercontent.com/ubuntu/yaru/7f18973e05607c609c4b972f0dd9bff36fa2a13e/icons/Yaru/256x256/places/folder-documents.png",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "af79c8e0a0814d9e120778d79b63a2f16680d373c776466008c6ca59abf6ccad"
+    },
+    {
+      "file": "places/folder-download.png",
+      "source": "https://raw.githubusercontent.com/ubuntu/yaru/7f18973e05607c609c4b972f0dd9bff36fa2a13e/icons/Yaru/256x256/places/folder-download.png",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "0f64e9d4927a343533fd6da0c6f169a2e75bff6330f031c92d41a4524433e39c"
+    },
+    {
+      "file": "places/folder-music.png",
+      "source": "https://raw.githubusercontent.com/ubuntu/yaru/7f18973e05607c609c4b972f0dd9bff36fa2a13e/icons/Yaru/256x256/places/folder-music.png",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "5407bb6d16f48bd80e43c94498000deda85c1637bce09bb18257010ea29f51fd"
+    },
+    {
+      "file": "places/folder-pictures.png",
+      "source": "https://raw.githubusercontent.com/ubuntu/yaru/7f18973e05607c609c4b972f0dd9bff36fa2a13e/icons/Yaru/256x256/places/folder-pictures.png",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "654e925591544ddcec57378921a078d7a515a5149e2b7149bc1b27ab28f29328"
+    },
+    {
+      "file": "places/folder-publicshare.png",
+      "source": "https://raw.githubusercontent.com/ubuntu/yaru/7f18973e05607c609c4b972f0dd9bff36fa2a13e/icons/Yaru/256x256/places/folder-publicshare.png",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "425a7493cdc7173dc7b64b60bc823c1756b1605428f7fca4ff824e68861c1eb9"
+    },
+    {
+      "file": "places/folder-templates.png",
+      "source": "https://raw.githubusercontent.com/ubuntu/yaru/7f18973e05607c609c4b972f0dd9bff36fa2a13e/icons/Yaru/256x256/places/folder-templates.png",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "69c22f7afe06188ec18b4a23bcfedecbd953c9d8fdc65c562d858109a4a60344"
+    },
+    {
+      "file": "places/folder-videos.png",
+      "source": "https://raw.githubusercontent.com/ubuntu/yaru/7f18973e05607c609c4b972f0dd9bff36fa2a13e/icons/Yaru/256x256/places/folder-videos.png",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "799a9d9e248171e9338fc0fe42b6820fa6ebecc34fd12f4d19cff1c3d73c23a4"
+    },
+    {
+      "file": "places/folder.png",
+      "source": "https://raw.githubusercontent.com/ubuntu/yaru/7f18973e05607c609c4b972f0dd9bff36fa2a13e/icons/Yaru/256x256/places/folder.png",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "45d76cf2058ecb79d712788c845df5b3de7785c15b5acf6e8792f0435cb50c4c"
+    },
+    {
+      "file": "places/user-desktop.png",
+      "source": "https://raw.githubusercontent.com/ubuntu/yaru/7f18973e05607c609c4b972f0dd9bff36fa2a13e/icons/Yaru/256x256/places/user-desktop.png",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "f5e6fb25efa213a6bb7dfc28bd51df313a7e51a7de9c83e90191908130b9221e"
+    },
+    {
+      "file": "places/user-home.png",
+      "source": "https://raw.githubusercontent.com/ubuntu/yaru/7f18973e05607c609c4b972f0dd9bff36fa2a13e/icons/Yaru/256x256/places/user-home.png",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "568a37268aa2d6c7680f55b364c911df2d9a0c9ae518b82af5977c244d741eb2"
+    },
+    {
+      "file": "places/user-trash-full.png",
+      "source": "https://raw.githubusercontent.com/ubuntu/yaru/7f18973e05607c609c4b972f0dd9bff36fa2a13e/icons/Yaru/256x256/status/user-trash-full.png",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "a90b3a3539dbfc28ac779912fde2f914fc7922d2d803a8ef6080a236f23a73a9"
+    },
+    {
+      "file": "places/user-trash.png",
+      "source": "https://raw.githubusercontent.com/ubuntu/yaru/7f18973e05607c609c4b972f0dd9bff36fa2a13e/icons/Yaru/256x256/places/user-trash.png",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "3811effb3b2871b38260a003c6830f79226fe837bda0ba393c5ea5deffc48d2d"
+    },
+    {
+      "file": "symbolic/airplane-mode.svg",
+      "source": "https://raw.githubusercontent.com/ubuntu/yaru/7f18973e05607c609c4b972f0dd9bff36fa2a13e/icons/Yaru/scalable/status/airplane-mode-symbolic.svg",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "367dc4413e30cfd66293563308b8bb8cad9785d066f25bce467413e1cb67070f"
+    },
+    {
+      "file": "symbolic/audio-input-microphone.svg",
+      "source": "https://raw.githubusercontent.com/ubuntu/yaru/7f18973e05607c609c4b972f0dd9bff36fa2a13e/icons/Yaru/scalable/devices/audio-input-microphone-symbolic.svg",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "6910b14733120805f72b8a53b4c711dc60a2a99177cc19fe2a7e9fe327504072"
+    },
+    {
+      "file": "symbolic/audio-volume-high.svg",
+      "source": "https://raw.githubusercontent.com/ubuntu/yaru/7f18973e05607c609c4b972f0dd9bff36fa2a13e/icons/Yaru/scalable/status/audio-volume-high-symbolic.svg",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "0b7b19f3989cf18405ede09579d979724a55a8cb80cdf68cfb3a5d2e53efa0fc"
+    },
+    {
+      "file": "symbolic/audio-volume-muted.svg",
+      "source": "https://raw.githubusercontent.com/ubuntu/yaru/7f18973e05607c609c4b972f0dd9bff36fa2a13e/icons/Yaru/scalable/status/audio-volume-muted-symbolic.svg",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "f4d648ed824592afdd2a40f0aab520d1a928a5feff7b1619deadeead53f69f31"
+    },
+    {
+      "file": "symbolic/battery-full.svg",
+      "source": "https://raw.githubusercontent.com/ubuntu/yaru/7f18973e05607c609c4b972f0dd9bff36fa2a13e/icons/Yaru/scalable/devices/battery-symbolic.svg",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "1cfec8abd24a0020548ab0094d80596cd65f692fab19e536ab20bc9cd4223675"
+    },
+    {
+      "file": "symbolic/bluetooth-active.svg",
+      "source": "https://raw.githubusercontent.com/ubuntu/yaru/7f18973e05607c609c4b972f0dd9bff36fa2a13e/icons/Yaru/scalable/status/bluetooth-active-symbolic.svg",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "c011dfec11f95932b7a88cb2ca19e1d9d58008f098b6e6137edebf1ce5241796"
+    },
+    {
+      "file": "symbolic/dialog-information.svg",
+      "source": "https://raw.githubusercontent.com/ubuntu/yaru/7f18973e05607c609c4b972f0dd9bff36fa2a13e/icons/Yaru/scalable/status/dialog-information-symbolic.svg",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "0d06b70ad80ac1586a710659edf9450443666b4b1772b1532a7da67837c49f12"
+    },
+    {
+      "file": "symbolic/display-brightness.svg",
+      "source": "https://raw.githubusercontent.com/ubuntu/yaru/7f18973e05607c609c4b972f0dd9bff36fa2a13e/icons/Yaru/scalable/status/display-brightness-symbolic.svg",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "94661ce6d9953e4b6c7302891b3a3608f4425d4282921f06e8fe490327a2a548"
+    },
+    {
+      "file": "symbolic/document-new.svg",
+      "source": "https://raw.githubusercontent.com/ubuntu/yaru/7f18973e05607c609c4b972f0dd9bff36fa2a13e/icons/Yaru/scalable/actions/document-new-symbolic.svg",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "f4a18aa04c5cfd56b031f84e065f1cea478e1fca4706b5f3fca77baac00ba9b5"
+    },
+    {
+      "file": "symbolic/document-save.svg",
+      "source": "https://raw.githubusercontent.com/ubuntu/yaru/7f18973e05607c609c4b972f0dd9bff36fa2a13e/icons/Yaru/scalable/actions/document-save-symbolic.svg",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "ba78798e0e58c85c4e377b0f066c0e9f9a04963e7e0591397730f096c13df6fa"
+    },
+    {
+      "file": "symbolic/edit-copy.svg",
+      "source": "https://raw.githubusercontent.com/ubuntu/yaru/7f18973e05607c609c4b972f0dd9bff36fa2a13e/icons/Yaru/scalable/actions/edit-copy-symbolic.svg",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "d73a0f4c151f37f041919e1dad7ebc32a82981974b90687804130153511832d6"
+    },
+    {
+      "file": "symbolic/edit-cut.svg",
+      "source": "https://raw.githubusercontent.com/ubuntu/yaru/7f18973e05607c609c4b972f0dd9bff36fa2a13e/icons/Yaru/scalable/actions/edit-cut-symbolic.svg",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "bea8e6efa74bb6fc6e33ff9cfa12d25d5f91dfa4afb45a9b01f5475d30c9ddaf"
+    },
+    {
+      "file": "symbolic/edit-delete.svg",
+      "source": "https://raw.githubusercontent.com/ubuntu/yaru/7f18973e05607c609c4b972f0dd9bff36fa2a13e/icons/Yaru/scalable/actions/edit-delete-symbolic.svg",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "1d4c90a78f20f0668cb91e437dfc95b8b89e8454e3bc7710f1ce34fccaffa771"
+    },
+    {
+      "file": "symbolic/edit-paste.svg",
+      "source": "https://raw.githubusercontent.com/ubuntu/yaru/7f18973e05607c609c4b972f0dd9bff36fa2a13e/icons/Yaru/scalable/actions/edit-paste-symbolic.svg",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "7fba6bb22f5ba06c15cc654aaa21c519a69b7be1655e385c688b0aebb4d43a3d"
+    },
+    {
+      "file": "symbolic/folder-documents.svg",
+      "source": "https://raw.githubusercontent.com/ubuntu/yaru/7f18973e05607c609c4b972f0dd9bff36fa2a13e/icons/Yaru/scalable/places/folder-documents-symbolic.svg",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "e5b259d94bb33f8d2455d787d7175cb4a2663e2b85ad0b2687e12e9e593bf18b"
+    },
+    {
+      "file": "symbolic/folder-download.svg",
+      "source": "https://raw.githubusercontent.com/ubuntu/yaru/7f18973e05607c609c4b972f0dd9bff36fa2a13e/icons/Yaru/scalable/places/folder-download-symbolic.svg",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "fcb2619d22141257b083e015cbd3ba90a4b042475308086e169595ec83341360"
+    },
+    {
+      "file": "symbolic/folder-music.svg",
+      "source": "https://raw.githubusercontent.com/ubuntu/yaru/7f18973e05607c609c4b972f0dd9bff36fa2a13e/icons/Yaru/scalable/multimedia/music-note-symbolic.svg",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "0c8e4e859b4c0d3f3bc6c4347e289202c097d014a1cf4ff219ca158a36100b6b"
+    },
+    {
+      "file": "symbolic/folder-new.svg",
+      "source": "https://raw.githubusercontent.com/ubuntu/yaru/7f18973e05607c609c4b972f0dd9bff36fa2a13e/icons/Yaru/scalable/actions/folder-new-symbolic.svg",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "054f2125da60e7222d4b4e5c21b922a497b889c7ed9ee56c2345fc544561554c"
+    },
+    {
+      "file": "symbolic/folder-pictures.svg",
+      "source": "https://raw.githubusercontent.com/ubuntu/yaru/7f18973e05607c609c4b972f0dd9bff36fa2a13e/icons/Yaru/scalable/places/folder-pictures-symbolic.svg",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "55d1c1824d87bb995dde6ddfac185a87611bd4a8c8ccc1acd0a3451fddd08f1a"
+    },
+    {
+      "file": "symbolic/folder-publicshare.svg",
+      "source": "https://raw.githubusercontent.com/ubuntu/yaru/7f18973e05607c609c4b972f0dd9bff36fa2a13e/icons/Yaru/scalable/places/folder-publicshare-symbolic.svg",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "b5b6811d0e3c7c7c353773e589a94ed1e0b681d786cea8caa82047b66947820a"
+    },
+    {
+      "file": "symbolic/folder-templates.svg",
+      "source": "https://raw.githubusercontent.com/ubuntu/yaru/7f18973e05607c609c4b972f0dd9bff36fa2a13e/icons/Yaru/scalable/places/folder-templates-symbolic.svg",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "f26591e277663c94b7010253fd8e9884a650b15d545441430770de0f4bde345a"
+    },
+    {
+      "file": "symbolic/folder-videos.svg",
+      "source": "https://raw.githubusercontent.com/ubuntu/yaru/7f18973e05607c609c4b972f0dd9bff36fa2a13e/icons/Yaru/scalable/emblems/emblem-videos-symbolic.svg",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "ab7171eb2bcfc296a9c989ce504372bdd66d4678b2e163195e54734ae4648430"
+    },
+    {
+      "file": "symbolic/go-home.svg",
+      "source": "https://raw.githubusercontent.com/ubuntu/yaru/7f18973e05607c609c4b972f0dd9bff36fa2a13e/icons/Yaru/scalable/actions/go-home-symbolic.svg",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "6e5ebb2993f307ac143ae90a7711e519951b511be4d7870620513dac559e2105"
+    },
+    {
+      "file": "symbolic/go-next.svg",
+      "source": "https://raw.githubusercontent.com/ubuntu/yaru/7f18973e05607c609c4b972f0dd9bff36fa2a13e/icons/Yaru/scalable/actions/go-next-symbolic.svg",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "a3b7f62754c9afe5ac83045986b7a1fe1109bafc034951752c45f4fd1a733ede"
+    },
+    {
+      "file": "symbolic/go-previous.svg",
+      "source": "https://raw.githubusercontent.com/ubuntu/yaru/7f18973e05607c609c4b972f0dd9bff36fa2a13e/icons/Yaru/scalable/actions/go-previous-symbolic.svg",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "1f273ecdb139260a0c46e048ba044a0752e14943370ba0bbddc89d5fff256c7c"
+    },
+    {
+      "file": "symbolic/go-up.svg",
+      "source": "https://raw.githubusercontent.com/ubuntu/yaru/7f18973e05607c609c4b972f0dd9bff36fa2a13e/icons/Yaru/scalable/actions/go-up-symbolic.svg",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "8b97dcba6045994c3abed785de4d5f47d83cc7e25597de9d8dd88f8c91239196"
+    },
+    {
+      "file": "symbolic/list-add.svg",
+      "source": "https://raw.githubusercontent.com/ubuntu/yaru/7f18973e05607c609c4b972f0dd9bff36fa2a13e/icons/Yaru/scalable/actions/list-add-symbolic.svg",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "e9ae27c2d7fa201c49cd6b8d0f5f7050a296805a22386fc4a27c5bd34441a6e5"
+    },
+    {
+      "file": "symbolic/media-playback-start.svg",
+      "source": "https://raw.githubusercontent.com/ubuntu/yaru/7f18973e05607c609c4b972f0dd9bff36fa2a13e/icons/Yaru/scalable/actions/media-playback-start-symbolic.svg",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "e14ff08211491cdcce01a9b3f5d74a9becbd2573a89a942353b08c78d7b9312d"
+    },
+    {
+      "file": "symbolic/network-wireless-disabled.svg",
+      "source": "https://raw.githubusercontent.com/ubuntu/yaru/7f18973e05607c609c4b972f0dd9bff36fa2a13e/icons/Yaru/scalable/status/network-wireless-disabled-symbolic.svg",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "6fbd0adf26bdde2a29192cc1a2739a43498e85a3dc263be3f953c839fb29699a"
+    },
+    {
+      "file": "symbolic/network-wireless-signal-excellent.svg",
+      "source": "https://raw.githubusercontent.com/ubuntu/yaru/7f18973e05607c609c4b972f0dd9bff36fa2a13e/icons/Yaru/scalable/status/network-wireless-connected-symbolic.svg",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "0da7c8e7f1d0a37858c70e6433395b4c7496408cd569c3443d9b6ebd2a888498"
+    },
+    {
+      "file": "symbolic/notifications-disabled.svg",
+      "source": "https://raw.githubusercontent.com/ubuntu/yaru/7f18973e05607c609c4b972f0dd9bff36fa2a13e/icons/Yaru/scalable/status/notifications-disabled-symbolic.svg",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "eea37c72d9dfc4bf09e607d1b43f6eaa20afe5966f7dbe8ce791ece82fe1b891"
+    },
+    {
+      "file": "symbolic/pan-end.svg",
+      "source": "https://raw.githubusercontent.com/ubuntu/yaru/7f18973e05607c609c4b972f0dd9bff36fa2a13e/icons/Yaru/scalable/ui/pan-end-symbolic.svg",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "55221faef2090986cc4c0ce987b31a5a572f8565dd3e0b1f5e8f0188e0b0c14e"
+    },
+    {
+      "file": "symbolic/power-profile-balanced.svg",
+      "source": "https://raw.githubusercontent.com/ubuntu/yaru/7f18973e05607c609c4b972f0dd9bff36fa2a13e/icons/Yaru/scalable/status/power-profile-balanced-symbolic.svg",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "b73150d4b010082e9907a9dacee620e79033048301086ed80e001e0a97d5d99f"
+    },
+    {
+      "file": "symbolic/preferences-system.svg",
+      "source": "https://raw.githubusercontent.com/ubuntu/yaru/7f18973e05607c609c4b972f0dd9bff36fa2a13e/icons/Yaru/scalable/apps/system-settings-symbolic.svg",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "5db4e2b6b3104c7d6d258c4b77e83ab526e7527e1a1289773d4e6a48f45dbbeb"
+    },
+    {
+      "file": "symbolic/start-here.svg",
+      "source": "https://raw.githubusercontent.com/ubuntu/yaru/7f18973e05607c609c4b972f0dd9bff36fa2a13e/icons/Yaru/scalable/places/start-here-symbolic.svg",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "e98538ce22b7c76d99a6b2afaf02f9befa0945a46e5690526281f0fe5090ea09"
+    },
+    {
+      "file": "symbolic/system-lock-screen.svg",
+      "source": "https://raw.githubusercontent.com/ubuntu/yaru/7f18973e05607c609c4b972f0dd9bff36fa2a13e/icons/Yaru/scalable/actions/system-lock-screen-symbolic.svg",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "75111b1ea59637051920db6d58ab100f353bfda11e297c4ef920c93b8c4fc420"
+    },
+    {
+      "file": "symbolic/system-search.svg",
+      "source": "https://raw.githubusercontent.com/ubuntu/yaru/7f18973e05607c609c4b972f0dd9bff36fa2a13e/icons/Yaru/scalable/actions/edit-find-symbolic.svg",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "7c5bc3990eceb9d00c1e36f2d3cceeab93bc5a2cb1d7fcbed044bd2fcbf32dc6"
+    },
+    {
+      "file": "symbolic/system-shutdown.svg",
+      "source": "https://raw.githubusercontent.com/ubuntu/yaru/7f18973e05607c609c4b972f0dd9bff36fa2a13e/icons/Yaru/scalable/actions/system-shutdown-symbolic.svg",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "07b11843e9d2ff01f7ba91ce2d01756b916b82262c8cbe82ee3b57a11017b65f"
+    },
+    {
+      "file": "symbolic/text-x-generic.svg",
+      "source": "https://raw.githubusercontent.com/ubuntu/yaru/7f18973e05607c609c4b972f0dd9bff36fa2a13e/icons/Yaru/scalable/mimetypes/text-x-generic-symbolic.svg",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "03ef82d46ebbde73e5a3701ba4df8e6c3f23e92aadb28f120ab859fdb00472a5"
+    },
+    {
+      "file": "symbolic/user-desktop.svg",
+      "source": "https://raw.githubusercontent.com/ubuntu/yaru/7f18973e05607c609c4b972f0dd9bff36fa2a13e/icons/Yaru/scalable/places/user-desktop-symbolic.svg",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "6626d752345e66e331b85c9db08cc2e06f943f49fd695efb2e58b969a27746fc"
+    },
+    {
+      "file": "symbolic/user-home.svg",
+      "source": "https://raw.githubusercontent.com/ubuntu/yaru/7f18973e05607c609c4b972f0dd9bff36fa2a13e/icons/Yaru/scalable/places/user-home-symbolic.svg",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "5c046ec8e9ce3b039475c7934275b3a6d893eb5d599f2b3a0ef3924a1dec60c7"
+    },
+    {
+      "file": "symbolic/user-trash.svg",
+      "source": "https://raw.githubusercontent.com/ubuntu/yaru/7f18973e05607c609c4b972f0dd9bff36fa2a13e/icons/Yaru/scalable/places/user-trash-symbolic.svg",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "32cfd32eeaf635667e84ba045b98fa7289b196917b7a1093ce92aa68b934e0a4"
+    },
+    {
+      "file": "symbolic/view-grid.svg",
+      "source": "https://raw.githubusercontent.com/ubuntu/yaru/7f18973e05607c609c4b972f0dd9bff36fa2a13e/icons/Yaru/scalable/actions/view-grid-symbolic.svg",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "06096462c40a162ddab2d369dc1168b517b6aac011b57d45b92eb68c8424aa33"
+    },
+    {
+      "file": "symbolic/view-list.svg",
+      "source": "https://raw.githubusercontent.com/ubuntu/yaru/7f18973e05607c609c4b972f0dd9bff36fa2a13e/icons/Yaru/scalable/actions/view-list-symbolic.svg",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "b41dfc62f8947a4e1783b2577e390d491c5815c1e7b83fe0ea0e70a9271873f1"
+    },
+    {
+      "file": "symbolic/view-more.svg",
+      "source": "https://raw.githubusercontent.com/ubuntu/yaru/7f18973e05607c609c4b972f0dd9bff36fa2a13e/icons/Yaru/scalable/actions/view-more-symbolic.svg",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "7095474d5e51985dcca51a9e2606c332c394772dc5259f6dc4fd39089d28cf8e"
+    },
+    {
+      "file": "symbolic/view-refresh.svg",
+      "source": "https://raw.githubusercontent.com/ubuntu/yaru/7f18973e05607c609c4b972f0dd9bff36fa2a13e/icons/Yaru/scalable/actions/view-refresh-symbolic.svg",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "5b622db6cb96af2eb95ebedf0321d6a25648a39797cd5292ea11a72b3d7ad5c9"
+    },
+    {
+      "file": "symbolic/weather-clear-night.svg",
+      "source": "https://raw.githubusercontent.com/ubuntu/yaru/7f18973e05607c609c4b972f0dd9bff36fa2a13e/icons/Yaru/scalable/status/weather-clear-night-symbolic.svg",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "3e911be642fda4bd5b099477b88ed5823ad89c8d421264f2102341a284550e62"
+    },
+    {
+      "file": "symbolic/window-close.svg",
+      "source": "https://raw.githubusercontent.com/ubuntu/yaru/7f18973e05607c609c4b972f0dd9bff36fa2a13e/icons/Yaru/scalable/ui/window-close-symbolic.svg",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "e972c898574df6493eb5041693cb979cb40ef90fdbd083a62a71fd5f75888290"
+    },
+    {
+      "file": "symbolic/window-maximize.svg",
+      "source": "https://raw.githubusercontent.com/ubuntu/yaru/7f18973e05607c609c4b972f0dd9bff36fa2a13e/icons/Yaru/scalable/ui/window-maximize-symbolic.svg",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "b0b980c1af1a657595e73135ca73b9314bf448da798f6b2907ea6bf19c8b774a"
+    },
+    {
+      "file": "symbolic/window-minimize.svg",
+      "source": "https://raw.githubusercontent.com/ubuntu/yaru/7f18973e05607c609c4b972f0dd9bff36fa2a13e/icons/Yaru/scalable/ui/window-minimize-symbolic.svg",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "c7de922e93516493318582793782226b97f6df2d13f60f163068781e2113c0be"
+    },
+    {
+      "file": "wallpapers/resolute-dark.webp",
+      "source": "https://meulinux.com/sim-assets/ubuntu/wallpapers/ubuntu-wallpaper-d.webp",
+      "license": "Ubuntu wallpaper package; see licenses/wallpapers-copyright.txt",
+      "sha256": "8c151757af6c27b54d15d1962d7383387b71c46a7fc1fc41ef0fd7a74a15b9c2"
+    },
+    {
+      "file": "wallpapers/resolute.webp",
+      "source": "https://meulinux.com/sim-assets/ubuntu/wallpapers/warty-final-ubuntu.webp",
+      "license": "Ubuntu wallpaper package; see licenses/wallpapers-copyright.txt",
+      "sha256": "60aeae55ba394067142bfebc2fc82e50e891c79edeb5096d1bd58f0313c2d61b"
+    }
+  ]
+}

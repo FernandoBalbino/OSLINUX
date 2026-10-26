@@ -1,0 +1,26 @@
+[
+  {
+    "scene": "desktop",
+    "resolution": [
+      1916,
+      909
+    ],
+    "meanAbsoluteRGBDifference": 10.642
+  },
+  {
+    "scene": "apps",
+    "resolution": [
+      1919,
+      911
+    ],
+    "meanAbsoluteRGBDifference": 6.789
+  },
+  {
+    "scene": "firefox-quick-settings",
+    "resolution": [
+      1919,
+      911
+    ],
+    "meanAbsoluteRGBDifference": 9.374
+  }
+]

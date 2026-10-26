@@ -1,0 +1,21 @@
+/* Reference corrections supplied by the user: 26 October 2026. */
+.desktop{cursor:url('../public/assets/cursors/left_ptr-32.png') 5 5,default}
+.desktop button,.desktop [role=button],.desktop a,.desktop input[type=range]{cursor:url('../public/assets/cursors/hand2-32.png') 10 6,pointer}
+.desktop input:not([type=range]):not([type=checkbox]),.desktop textarea,.terminal-scroll{cursor:url('../public/assets/cursors/xterm-32.png') 14 15,text}
+.top-panel,.dock{background:#131313}
+.file-items.grid{grid-template-columns:repeat(auto-fill,minmax(108px,1fr));grid-auto-rows:minmax(122px,auto);align-items:start}
+.grid .file-item{width:100%;height:auto;min-height:114px;align-self:start;justify-content:flex-start;padding:10px 6px;gap:8px}
+.grid .file-item img,.grid .file-item>.symbol{flex-shrink:0}
+.file-item>span:not(.symbol){max-height:none;overflow:visible;white-space:normal;overflow-wrap:anywhere;word-break:normal;hyphens:auto;line-height:18px}
+.list .file-item>span:not(.symbol){text-align:left}
+.file-items.list .file-item{height:auto;min-height:46px}
+.files-sidebar button{white-space:normal;line-height:1.4}
+.home-shortcut{right:26px}
+.dock-apps{overflow-x:hidden;scrollbar-width:none;contain:paint}
+.quick-toggle>button:first-child span:not(.symbol){white-space:normal;line-height:12px;overflow:visible;font-size:12px}
+.grid-app{contain:layout paint}
+.browser-page{overflow-y:scroll;scrollbar-gutter:stable}
+.browser-page::-webkit-scrollbar{width:16px;background:#ddd}
+.browser-page::-webkit-scrollbar-thumb{background:#969696;border:3px solid #ddd;border-radius:10px}
+.google-center{padding-top:18px}
+.google-logo{filter:grayscale(1) brightness(.88)}

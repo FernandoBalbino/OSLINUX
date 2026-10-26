@@ -1,0 +1,34 @@
+{
+  "cursorSize": "32x32; hotspot 5 5",
+  "dock": {
+    "height": 879,
+    "width": 66,
+    "x": 0,
+    "y": 32
+  },
+  "dpr": 1,
+  "firefox": {
+    "height": 640,
+    "width": 940,
+    "x": 464,
+    "y": 112
+  },
+  "font": "loaded",
+  "height": 911,
+  "missingImages": [],
+  "overflow": false,
+  "panel": {
+    "height": 32,
+    "width": 1919,
+    "x": 0,
+    "y": 0
+  },
+  "panelColor": "rgb(19, 19, 19)",
+  "quickPanel": {
+    "height": 350,
+    "width": 344,
+    "x": 1568,
+    "y": 38
+  },
+  "width": 1919
+}

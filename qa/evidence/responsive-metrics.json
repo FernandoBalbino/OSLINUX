@@ -1,0 +1,64 @@
+{
+  "header": [
+    {
+      "name": "Voltar",
+      "right": 442
+    },
+    {
+      "name": "Avançar",
+      "right": 475
+    },
+    {
+      "name": "Editar localização",
+      "right": 570
+    },
+    {
+      "name": "Nova pasta",
+      "right": 603
+    },
+    {
+      "name": "Alternar visualização",
+      "right": 636
+    },
+    {
+      "name": "Minimizar",
+      "right": 669
+    },
+    {
+      "name": "Maximizar",
+      "right": 698
+    },
+    {
+      "name": "Fechar",
+      "right": 727
+    }
+  ],
+  "labels": [
+    {
+      "height": 72,
+      "needed": 72,
+      "text": "Pasta com nome longo para conferir as linhas no Chromebook"
+    },
+    {
+      "height": 18,
+      "needed": 18,
+      "text": "Boas-vindas.txt"
+    },
+    {
+      "height": 18,
+      "needed": 18,
+      "text": "verificacao.txt"
+    }
+  ],
+  "overflow": false,
+  "viewport": [
+    1366,
+    768
+  ],
+  "window": {
+    "h": 550,
+    "w": 524,
+    "x": 207,
+    "y": 167
+  }
+}
