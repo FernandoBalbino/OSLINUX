@@ -715,6 +715,12 @@
       "source": "https://meulinux.com/sim-assets/ubuntu/wallpapers/warty-final-ubuntu.webp",
       "license": "Ubuntu wallpaper package; see licenses/wallpapers-copyright.txt",
       "sha256": "60aeae55ba394067142bfebc2fc82e50e891c79edeb5096d1bd58f0313c2d61b"
+    },
+    {
+      "file": "learning/desktop-guide.png",
+      "source": "Original OSLINUX QA screenshot, isolated desktop, 1366x768",
+      "license": "Screenshot of credited Ubuntu assets and original OSLINUX interface",
+      "sha256": "9de9c768bda5722b8a8b4b2a3a38a75fb385d9da33d513328509395945914b2c"
     }
   ]
 }

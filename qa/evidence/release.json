@@ -1,0 +1,44 @@
+{
+  "date": "2026-10-26",
+  "sourceCommit": "a676f21b8ce1d36d8f27d09ff2c4819db8f14c8d",
+  "workflow": "https://github.com/FernandoBalbino/OSLINUX/actions/runs/40421144025",
+  "build": "success",
+  "deploy": "success",
+  "testsPassed": 45,
+  "publicHttp": [
+    {
+      "url": "https://fernandobalbino.github.io/OSLINUX/",
+      "status": 200
+    },
+    {
+      "url": "https://fernandobalbino.github.io/OSLINUX/slide/",
+      "status": 200
+    },
+    {
+      "url": "https://fernandobalbino.github.io/OSLINUX/assets/learning/linux-basics-icon.png",
+      "status": 200
+    },
+    {
+      "url": "https://fernandobalbino.github.io/OSLINUX/assets/learning/oslab-mascot-neutral.png",
+      "status": 200
+    },
+    {
+      "url": "https://fernandobalbino.github.io/OSLINUX/service-worker.js",
+      "status": 200
+    }
+  ],
+  "publicBrowser": {
+    "slideToTrail": "passed",
+    "horizontalOverflow": false,
+    "missingImages": [],
+    "consoleErrors": []
+  },
+  "offline": {
+    "desktop": "passed",
+    "publicCacheReady": true,
+    "slides": "passed",
+    "environment": "local production build",
+    "trail": "passed",
+    "method": "Stop the owned static server, reload /slide/, navigate to /, open trail"
+  }
+}

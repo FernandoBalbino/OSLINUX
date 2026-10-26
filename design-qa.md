@@ -54,3 +54,9 @@ O último slide destaca o mesmo arquivo do ícone da trilha e seu nome exato. O 
 45 testes aprovados: arquivos, Terminal, calculadora, transações, persistência, colisões, rede, 15 missões, sequência, pausa/retomada, repetição segura, instalação, downloads e runtime Sites. Build de produção gera `dist/client/index.html`, `dist/client/slide/index.html`, service worker, `dist/server/index.js` e `dist/.openai/hosting.json`.
 
 Firefox e Chrome navegam somente por páginas locais simuladas. Tempo mostra valores fictícios. O pacote .deb não contém executável. O catálogo da Central é intencionalmente pequeno. A verificação de publicação e cache offline é registrada em `qa/evidence/release.json` após o deploy.
+
+## Publicação verificada
+
+GitHub Actions executou `npm ci`, build, os 45 testes e deploy com sucesso no commit `a676f21`. Os endereços públicos do simulador, `/slide/`, ícone, robô e service worker responderam HTTP 200. No navegador público, o último slide abriu a trilha com 15 missões; não houve imagens ausentes, overflow horizontal ou erros de console. Capturas: `public-final-slide.png` e `public-trail.png`.
+
+O cache offline foi validado no build de produção local, interrompendo o servidor de propósito: recarga dos slides, navegação ao desktop e abertura da trilha funcionaram com todos os assets locais. A correção de fallback específica de `/slide/` foi publicada. `offline-slide.png` e `offline-trail.png` registram o resultado. O cache público também foi preparado; não foi desligada a conexão real do computador do usuário.

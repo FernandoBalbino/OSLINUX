@@ -1,5 +1,7 @@
 # OSLINUX
 
+[Abrir simulador](https://fernandobalbino.github.io/OSLINUX/) · [Aula de introdução ao Linux](https://fernandobalbino.github.io/OSLINUX/slide/)
+
 Simulador educativo de Ubuntu 26.04, em português do Brasil, para PC e Chromebook. Todo o funcionamento acontece no navegador; comandos não são executados no computador real.
 
 ## Desenvolvimento
