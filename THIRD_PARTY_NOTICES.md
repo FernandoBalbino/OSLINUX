@@ -37,3 +37,9 @@ React, React DOM e Vite são distribuídos sob MIT, com os avisos de suas distri
 ## Desktop comparison screenshots
 
 Windows 11 simulator screenshots are reused from FernandoBalbino/OSLab (qa/implementation-desktop-initial.png and qa/implementation-start-menu.png). See https://github.com/FernandoBalbino/OSLab and its THIRD_PARTY_NOTICES.md for the underlying Windows visual assets. Ubuntu screenshots are from this repository.
+
+## Trilhas de adaptação e instalação
+
+Os ícones windows-ubuntu-icon.png e install-programs-icon.png foram gerados com Image Generation para este projeto, usando o ícone original da primeira trilha como referência de acabamento, com fundo transparente. Os conceitos são duas telas ligadas por uma seta e uma caixa de instalação com três documentos.
+
+As capturas lesson2-*.jpg foram obtidas do OSLINUX local, durante as atividades das novas trilhas. Os ícones windows-word.svg, windows-excel.svg e windows-slides.svg foram reutilizados do OSLab de Fernando Balbino (assets/programs); preservam a identificação visual dos aplicativos Windows simulados. As interfaces educativas do Writer, Calc e Impress usam os ícones Yaru locais e a documentação visual de https://www.libreoffice.org/ como referência. LibreOffice é marca de The Document Foundation; Microsoft Office, Word, Excel e PowerPoint pertencem aos respectivos titulares. Não há distribuição dos aplicativos originais.

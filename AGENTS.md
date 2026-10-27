@@ -22,3 +22,11 @@ Build app UI in `src/`. Keep `.openai/hosting.json`, `worker/index.js`, `scripts
 
 - Missions 16–20 use Calendar, Clocks, Characters, Images and Help from the existing app grid, with real interactive tasks and sequential event validation. Preserve all first 15 missions and saved learner progress.
 - Add image-led Windows 11/Ubuntu desktop comparisons to /slide, preserving the original slides and using clear arrows that point to the Ubuntu app dock and app-grid button.
+
+## Trilhas e LibreOffice
+
+- Preserve the three independently accessible trails: 20 beginner missions, 11 Windows-to-Ubuntu missions, and 12 installation/LibreOffice missions. Keep sequential unlocking inside each trail, independent saved progress, and only one active guide robot.
+- The migration and installation trails use their own generated icons, matching the existing rounded 3D visual language. Reuse each exact icon across desktop, grid, windows and slides.
+- Writer, Calc and Impress have distinct Portuguese interfaces and functional basic editing. Store documents in the shared virtual filesystem, preserve formatting/formulas/slides when copied or renamed, and never remove documents when uninstalling software.
+- /slide2 is a separate 19-slide image-led lesson covering both new trails. Preserve /slide, local screenshots, clear arrows, offline entry and links through the Aluno greeter to the correct trail.
+- Office files in this simulator are educational structured documents using .odt/.ods/.odp names; do not claim import or export of real Office binaries.

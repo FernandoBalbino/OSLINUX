@@ -733,6 +733,84 @@
       "source": "https://upload.wikimedia.org/wikipedia/commons/6/69/Ubuntu_logo_light-on-dark.svg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
       "license": "Ubuntu trademark, Canonical; original brand asset",
       "sha256": "93cec3aa7c387953bb9e962945ccfcee08ff3cca78cc8e1105059d12a7630978"
+    },
+    {
+      "file": "learning/install-programs-icon.png",
+      "source": "Generated with built-in Image Generation; original beginner icon as style reference",
+      "license": "Project educational artwork",
+      "sha256": "c2548d7dc3fbad83e2f76304068b018b82c35c40d2958c4768444078ff29e96c"
+    },
+    {
+      "file": "learning/lesson2-apps.jpg",
+      "source": "OSLINUX local browser capture",
+      "license": "Project educational artwork",
+      "sha256": "1e50a37654d096dc73704af61e6dbb3cbb4e926810fd862ed2b3c1e7c54f493b"
+    },
+    {
+      "file": "learning/lesson2-calc.jpg",
+      "source": "OSLINUX local browser capture",
+      "license": "Project educational artwork",
+      "sha256": "1c5bd5dcfa2fe18623e2a59d88a256e2af32dc9d6571a333a506218a8cdf12d6"
+    },
+    {
+      "file": "learning/lesson2-center.jpg",
+      "source": "OSLINUX local browser capture",
+      "license": "Project educational artwork",
+      "sha256": "54bc9f6680c5ac651e87bad89d3bdd1e96948ee83fb5043a80f4e38c31fd1c3f"
+    },
+    {
+      "file": "learning/lesson2-files.jpg",
+      "source": "OSLINUX local browser capture",
+      "license": "Project educational artwork",
+      "sha256": "fd50b7e4b90e622dc490eff5eacd2253bb0a6a6a045ab130371ac52eb68c30ef"
+    },
+    {
+      "file": "learning/lesson2-hidden.jpg",
+      "source": "OSLINUX local browser capture",
+      "license": "Project educational artwork",
+      "sha256": "bbea89d3ffc94f2da8d42129f467d3682460fdaf605a5bbed01ed447934aec6d"
+    },
+    {
+      "file": "learning/lesson2-impress.jpg",
+      "source": "OSLINUX local browser capture",
+      "license": "Project educational artwork",
+      "sha256": "30b1cabbac7a1ce510f1a922636c4f256f8f479e131001f01ff9e21c93a0e1b4"
+    },
+    {
+      "file": "learning/lesson2-overview.jpg",
+      "source": "OSLINUX local browser capture",
+      "license": "Project educational artwork",
+      "sha256": "ddd9361fcd4580041e7577629c6c34c59c8037724d4d26b4219feb77456c17f9"
+    },
+    {
+      "file": "learning/lesson2-writer.jpg",
+      "source": "OSLINUX local browser capture",
+      "license": "Project educational artwork",
+      "sha256": "6a197b6627a8d82c10330503146ef96bf7fddb09cf925cf9341ad26545a5548f"
+    },
+    {
+      "file": "learning/windows-excel.svg",
+      "source": "FernandoBalbino/OSLab assets/programs",
+      "license": "See OSLab THIRD_PARTY_NOTICES.md; identifying application artwork",
+      "sha256": "0682e61e125cfdc8d0bf4123865084b3882ec4532331eba7d00b29e1c6b7a754"
+    },
+    {
+      "file": "learning/windows-slides.svg",
+      "source": "FernandoBalbino/OSLab assets/programs",
+      "license": "See OSLab THIRD_PARTY_NOTICES.md; identifying application artwork",
+      "sha256": "935d4b822ee3dab510c2a822a495fe80fbadf2f2ed0ab6c630d0b4bfd53d084f"
+    },
+    {
+      "file": "learning/windows-ubuntu-icon.png",
+      "source": "Generated with built-in Image Generation; original beginner icon as style reference",
+      "license": "Project educational artwork",
+      "sha256": "816cfec17517bcd45e7197b67b8328f9972bbdd371939bdfb1d124aa349c3bd6"
+    },
+    {
+      "file": "learning/windows-word.svg",
+      "source": "FernandoBalbino/OSLab assets/programs",
+      "license": "See OSLab THIRD_PARTY_NOTICES.md; identifying application artwork",
+      "sha256": "f4d21e9dcef2e8c6846d31db351e1d2baab196e03d79815f52cb6a929fe62b5f"
     }
   ]
 }

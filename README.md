@@ -24,9 +24,17 @@ Os demais ícones da grade abrem um aviso de indisponibilidade. A interface poss
 
 O ícone exclusivo no desktop, dock e grade abre uma trilha de 15 missões: abrir Arquivos, encontrar Documentos, criar e renomear uma pasta, criar um documento, escrever e salvar, copiar, excluir e restaurar, mudar o wallpaper, pesquisar ajuda, conectar ao Wi-Fi, reduzir o brilho, somar na Calculadora, instalar Tempo na Central e baixar/instalar o Chrome por pacote .deb. A Central e os downloads são educativos; nenhum programa é instalado no computador real.
 
+## Novas trilhas
+
+Do Windows ao Ubuntu tem 11 missões sobre grade, favoritos, Atividades, caminhos, maiúsculas, arquivos ocultos e instalação. Instalação de Programas tem 12 missões com pesquisa, instalação, Writer, Calc, Impress e reinstalação preservando os trabalhos. São 43 missões nas três trilhas, com acesso livre e progresso independente. Os links `?trilha=1`, `?trilha=2` e `?trilha=3` passam pelo perfil Aluno antes de abrir a atividade.
+
+Writer oferece texto formatado, alinhamento, listas, desfazer/refazer e salvamento. Calc oferece células A1:Z100, fórmulas aritméticas, referências, SOMA e MÉDIA. Impress oferece vários slides, temas e apresentação. Documentos são estruturas educativas locais com nomes .odt/.ods/.odp; não são arquivos binários Office para importação/exportação. Desinstalar a suíte preserva os trabalhos.
+
+A rota `/slide2/` contém 19 slides com capturas locais, comparações com o Windows, setas e links para as duas novas trilhas. A rota `/slide/` original foi preservada.
+
 ## Aula antes da prática
 
-A rota `/slide/` contém 11 slides sobre sistema operacional, Linux, Ubuntu, usos, comparação com Windows, desktop, arquivos, aplicativos e ajustes básicos. O modelo visual é a apresentação [Aula TCP × UDP](https://github.com/FernandoBalbino/Aula-TCP-UDP). Há navegação por setas, Home/End, indicadores, tela cheia e fontes oficiais. O último slide destaca o mesmo ícone da trilha e abre `?trilha=1` no desktop.
+A rota `/slide/` contém 13 slides sobre sistema operacional, Linux, Ubuntu, usos, comparação com Windows, desktop, arquivos, aplicativos e ajustes básicos. O modelo visual é a apresentação [Aula TCP × UDP](https://github.com/FernandoBalbino/Aula-TCP-UDP). Há navegação por setas, Home/End, indicadores, tela cheia e fontes oficiais. O último slide destaca o mesmo ícone da trilha e abre `?trilha=1` no desktop.
 
 O robô original do OSLab apresenta uma explicação curta, uma demonstração textual e passos para praticar no próprio sistema. O progresso depende dos eventos e do estado reais do simulador. Cada prática termina com uma pergunta de três opções e feedback explicado. É possível pausar, continuar e refazer sem apagar os arquivos anteriores. O progresso é salvo em `oslinux.learning.v1`; ao recarregar, a missão fica pausada.
 

@@ -1,0 +1,25 @@
+{
+  "date": "2026-10-27",
+  "missions": [
+    20,
+    11,
+    12
+  ],
+  "automatedTests": 64,
+  "browserCompleted": {
+    "migration": 11,
+    "installation": 12
+  },
+  "verified": [
+    "Writer format/save/reopen",
+    "Calc SOMA/MÉDIA with total 65",
+    "Impress save/present two slides",
+    "reinstall preserves three documents",
+    "cancel pending changes and uninstall",
+    "single guide and resume",
+    "19 slides without missing images or clipped content at 1366x768",
+    "offline slide2 and login to installation trail with preview server stopped"
+  ],
+  "cache": "oslinux-offline-57aa64d6d0c3",
+  "localAssets": 155
+}
