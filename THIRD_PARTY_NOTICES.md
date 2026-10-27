@@ -33,3 +33,7 @@ O ícone exclusivo `public/assets/learning/linux-basics-icon.png` foi criado par
 ## Bibliotecas
 
 React, React DOM e Vite são distribuídos sob MIT, com os avisos de suas distribuições. O template de desenvolvimento Product Design mantém seu runtime e testes originais.
+
+## Desktop comparison screenshots
+
+Windows 11 simulator screenshots are reused from FernandoBalbino/OSLab (qa/implementation-desktop-initial.png and qa/implementation-start-menu.png). See https://github.com/FernandoBalbino/OSLab and its THIRD_PARTY_NOTICES.md for the underlying Windows visual assets. Ubuntu screenshots are from this repository.
