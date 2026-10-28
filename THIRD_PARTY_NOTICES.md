@@ -43,3 +43,9 @@ Windows 11 simulator screenshots are reused from FernandoBalbino/OSLab (qa/imple
 Os ícones windows-ubuntu-icon.png e install-programs-icon.png foram gerados com Image Generation para este projeto, usando o ícone original da primeira trilha como referência de acabamento, com fundo transparente. Os conceitos são duas telas ligadas por uma seta e uma caixa de instalação com três documentos.
 
 As capturas lesson2-*.jpg foram obtidas do OSLINUX local, durante as atividades das novas trilhas. Os ícones windows-word.svg, windows-excel.svg e windows-slides.svg foram reutilizados do OSLab de Fernando Balbino (assets/programs); preservam a identificação visual dos aplicativos Windows simulados. As interfaces educativas do Writer, Calc e Impress usam os ícones Yaru locais e a documentação visual de https://www.libreoffice.org/ como referência. LibreOffice é marca de The Document Foundation; Microsoft Office, Word, Excel e PowerPoint pertencem aos respectivos titulares. Não há distribuição dos aplicativos originais.
+
+## Guia do touchpad e fundos opcionais
+
+A ilustração chromebook-two-finger-tap.png foi gerada com Image Generation para mostrar um toque simultâneo com indicador e dedo médio no centro de um touchpad. O gesto foi conferido na ajuda oficial do Chromebook: https://support.google.com/chromebook/answer/1047367?hl=pt-BR. A explicação é texto acessível do simulador.
+
+Os fundos opcionais blue-lock.jpeg e berserk.jpg são as imagens originais fornecidas pelo usuário em 27/10/2026 (1319752.jpeg e 1377511.jpg). As obras, personagens e marcas pertencem aos respectivos titulares; seu fornecimento não transfere direitos autorais nem implica endosso.

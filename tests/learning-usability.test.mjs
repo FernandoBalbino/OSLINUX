@@ -1,0 +1,10 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import fs from 'node:fs';
+import {createStore} from '../src/core/model.js';
+import {wallpapers,wallpaperById} from '../src/core/wallpapers.js';
+import {missionCatalog,missionUsesContextMenu} from '../src/learning/missions.js';
+import {migrationCatalog,installationCatalog} from '../src/learning/trails.js';
+test('papéis de parede fornecidos são locais e a escolha sobrevive a outra sessão',()=>{for(const id of ['blue-lock','berserk']){const data=new Map(),storage={getItem:key=>data.get(key),setItem:(key,value)=>data.set(key,value)},store=createStore(storage);store.setPreferences({wallpaper:id});assert.equal(createStore(storage).getSnapshot().preferences.wallpaper,id);const item=wallpaperById(id);assert.equal(item.id,id);assert.ok(fs.statSync('public/'+item.src).size>1000);}assert.equal(wallpapers.length,4);assert.equal(wallpaperById('versão-antiga').id,'resolute');});
+test('o guia de dois dedos acompanha tarefas com menu de contexto',()=>{for(const id of [3,4,5,7,8,9])assert.equal(missionUsesContextMenu(missionCatalog[id-1]),true,'missão básica '+id);for(const id of [2,7,11])assert.equal(missionUsesContextMenu(migrationCatalog[id-1]),true,'adaptação '+id);assert.equal(missionUsesContextMenu(installationCatalog[6]),false);assert.ok(fs.existsSync('public/assets/learning/chromebook-two-finger-tap.png'));});
+test('exemplos acompanham a criação e o salvamento dos três trabalhos',()=>{for(const id of [5,6,7,8,9,10])assert.ok(installationCatalog[id-1].example);assert.equal(installationCatalog[4].example.title,installationCatalog[5].example.title);assert.equal(installationCatalog[8].example.slides.length,2);});

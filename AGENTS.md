@@ -30,3 +30,16 @@ Build app UI in `src/`. Keep `.openai/hosting.json`, `worker/index.js`, `scripts
 - Writer, Calc and Impress have distinct Portuguese interfaces and functional basic editing. Store documents in the shared virtual filesystem, preserve formatting/formulas/slides when copied or renamed, and never remove documents when uninstalling software.
 - /slide2 is a separate 19-slide image-led lesson covering both new trails. Preserve /slide, local screenshots, clear arrows, offline entry and links through the Aluno greeter to the correct trail.
 - Office files in this simulator are educational structured documents using .odt/.ods/.odp names; do not claim import or export of real Office binaries.
+
+## Facilidade de uso no Chromebook
+
+- A recuperação de uma janela minimizada na trilha de adaptação aceita o dock e Atividades, exigindo a mesma janela e a minimização anterior.
+- O menu de contexto da grade de aplicativos preserva a grade e a pesquisa. Adicionar ou remover favoritos não deve voltar ao desktop. Abrir uma janela pelo dock fecha a grade e mostra o aplicativo.
+- Nas missões com botão direito, o robô mostra a ilustração local de um toque simultâneo com dois dedos no centro do touchpad do Chromebook e explica a equivalência com o mouse.
+- Objetivos de nomes aceitam diferenças entre maiúsculas e minúsculas, mantendo o caminho real usado pelo aluno. O sistema de arquivos continua sensível à capitalização e a missão Aula.txt/aula.txt exige distinguir os dois nomes.
+- Pesquisar parte do nome e selecionar o resultado correto deve valer como pesquisa; não exigir a digitação integral quando a sugestão já aparece.
+- Todos os nomes da grade devem quebrar linhas por inteiro e continuar legíveis com o robô aberto em 1366×768; a grade pode rolar verticalmente.
+- Writer, Calc e Impress apresentam exemplos concretos no robô durante criação e salvamento: texto formatado, tabela com endereços e destaque na célula a alterar, e dois slides. O aluno realiza as ações no aplicativo.
+- Blue Lock e Berserk, fornecidos pelo usuário, são opções locais de papel de parede em Aparência. Preservar os padrões Ubuntu e a escolha persistida, também offline.
+
+- A missão 8 de Instalação de Programas é “Atualize e salve sua planilha”: alterar B2 de 10 para 15, salvar, fechar e reabrir. Não exigir fórmulas nesta trilha básica; manter 12 missões e os progressos existentes. A aula /slide2 acompanha essa simplificação.

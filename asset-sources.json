@@ -748,9 +748,9 @@
     },
     {
       "file": "learning/lesson2-calc.jpg",
-      "source": "OSLINUX local browser capture",
+      "source": "OSLINUX local screenshot, 2026-10-27: simple Calc table, quantity B2=15",
       "license": "Project educational artwork",
-      "sha256": "1c5bd5dcfa2fe18623e2a59d88a256e2af32dc9d6571a333a506218a8cdf12d6"
+      "sha256": "34c8f28a4b46b297ea743da79def06f75719899276e6cadd424a321969f2330a"
     },
     {
       "file": "learning/lesson2-center.jpg",
@@ -811,6 +811,24 @@
       "source": "FernandoBalbino/OSLab assets/programs",
       "license": "See OSLab THIRD_PARTY_NOTICES.md; identifying application artwork",
       "sha256": "f4d21e9dcef2e8c6846d31db351e1d2baab196e03d79815f52cb6a929fe62b5f"
+    },
+    {
+      "file": "learning/chromebook-two-finger-tap.png",
+      "source": "Generated with OpenAI Image Generation, 2026-10-27; educational two-finger tap illustration",
+      "license": "Generated project artwork",
+      "sha256": "1626b6f424b879fa5d4c4252061e8297f5fca2d39ee8e9a4700e8df59517a346"
+    },
+    {
+      "file": "wallpapers/blue-lock.jpeg",
+      "source": "User-provided attachment 1319752.jpeg, 2026-10-27",
+      "license": "User-provided artwork; copyright belongs to original rights holders",
+      "sha256": "91663f3551c8c3a2cc059895b6df0ff7fc68df8834a78fb47237c836b5cbb351"
+    },
+    {
+      "file": "wallpapers/berserk.jpg",
+      "source": "User-provided attachment 1377511.jpg, 2026-10-27",
+      "license": "User-provided artwork; copyright belongs to original rights holders",
+      "sha256": "a9e4b8978e7a220326300d54cc0f901bc22e0cd111b85e102c19bfb2918ab0fd"
     }
   ]
 }

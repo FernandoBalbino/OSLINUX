@@ -57,3 +57,5 @@ As referências recortadas ficam em `qa/references`. As originais são preservad
 O workflow `.github/workflows/pages.yml` compila, executa os testes e publica `dist/client` no GitHub Pages. Todos os caminhos de runtime são relativos e os assets são locais.
 
 Consulte `THIRD_PARTY_NOTICES.md` e `asset-sources.json` para origem, versões e licenças dos assets.
+
+A trilha de instalação inclui exemplos visuais no robô para Writer, Calc e Impress. Sua missão 8 ensina a corrigir B2 de 10 para 15 e salvar/reabrir a planilha, sem exigir fórmulas. Nomes nas atividades aceitam diferenças de maiúsculas fora da lição de capitalização, e a pesquisa aceita selecionar o aplicativo antes de digitar o nome completo. O guia de botão direito inclui o toque com dois dedos no Chromebook. Aparência oferece os fundos Ubuntu, Blue Lock e Berserk, com escolha persistida e imagens locais.

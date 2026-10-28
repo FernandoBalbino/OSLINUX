@@ -1,0 +1,35 @@
+{
+  "checkedAt": "2026-10-28T00:11:40.174Z",
+  "tests": {
+    "passed": 77,
+    "failed": 0
+  },
+  "viewports": [
+    [
+      1366,
+      768
+    ],
+    [
+      1920,
+      1080
+    ]
+  ],
+  "checks": {
+    "sameMinimizedWindowRestoredViaDock": "review reached in browser",
+    "favoritesContextMenu": "grid and calc search preserved after right click and favorite",
+    "dockFromGrid": "grid closes and application appears",
+    "gridLabels": "32 labels measured at 1366x768; no cropped labels or page horizontal overflow",
+    "partialSearch": "Lib selected LibreOffice and Chr selected Chrome",
+    "writer": "example followed; lowercase name and .ODT saved and reopened with formatting",
+    "calcMission8": "B2 changed from 10 to 15; saved as minha planilha.ods; closed and reopened; review and completion reached without formulas",
+    "impress": "two example slides, theme, save and presentation verified",
+    "preservation": "three documents reopened after suite reinstall using actual chosen filenames",
+    "wallpapers": "both supplied images applied; Berserk persisted after reload",
+    "offline": "server stopped; desktop selected background, local touchpad image and revised slide 15 loaded offline",
+    "protectedSitesFiles": "unchanged"
+  },
+  "notes": [
+    "The 12 installation missions were exercised in browser before replacing mission 8; the replacement was then separately exercised through successful completion. Final domain tests cover the full 12-mission sequence.",
+    "Chromebook two-finger gesture is explained using official Google guidance and generated illustration; no physical Chromebook hardware test."
+  ]
+}
