@@ -4,7 +4,7 @@
 
 Simulador educativo de Ubuntu 26.04, em português do Brasil, para PC e Chromebook. Todo o funcionamento acontece no navegador; comandos não são executados no computador real.
 
-A entrada usa uma tela no padrão GDM/Ubuntu, com o perfil Aluno e botão Entrar, sem senha. O clique solicita tela cheia ao navegador. Se o navegador bloquear a solicitação, há uma opção de tentar novamente no desktop. Os slides são acessíveis diretamente e o link final passa por essa entrada antes de abrir a trilha.
+A entrada usa uma tela no padrão GDM/Ubuntu, com um perfil local (Aluno por padrão) e botão Entrar, sem senha. O clique solicita tela cheia ao navegador. Se o navegador bloquear a solicitação, há uma opção de tentar novamente no desktop. Os slides são acessíveis diretamente e o link final passa por essa entrada antes de abrir a trilha.
 
 ## Desenvolvimento
 
@@ -26,7 +26,7 @@ O ícone exclusivo no desktop, dock e grade abre uma trilha de 15 missões: abri
 
 ## Novas trilhas
 
-Do Windows ao Ubuntu tem 11 missões sobre grade, favoritos, Atividades, caminhos, maiúsculas, arquivos ocultos e instalação. Instalação de Programas tem 12 missões com pesquisa, instalação, Writer, Calc, Impress e reinstalação preservando os trabalhos. São 43 missões nas três trilhas, com acesso livre e progresso independente. Os links `?trilha=1`, `?trilha=2` e `?trilha=3` passam pelo perfil Aluno antes de abrir a atividade.
+Do Windows ao Ubuntu tem 13 missões sobre grade, favoritos, Atividades, caminhos, maiúsculas, arquivos ocultos e instalação. Instalação de Programas tem 12 missões com pesquisa, instalação, Writer, Calc, Impress e reinstalação preservando os trabalhos. São 45 missões nas três trilhas, com acesso livre e progresso independente. Os links `?trilha=1`, `?trilha=2` e `?trilha=3` passam pelo perfil Aluno antes de abrir a atividade.
 
 Writer oferece texto formatado, alinhamento, listas, desfazer/refazer e salvamento. Calc oferece células A1:Z100, fórmulas aritméticas, referências, SOMA e MÉDIA. Impress oferece vários slides, temas e apresentação. Documentos são estruturas educativas locais com nomes .odt/.ods/.odp; não são arquivos binários Office para importação/exportação. Desinstalar a suíte preserva os trabalhos.
 
@@ -59,3 +59,5 @@ O workflow `.github/workflows/pages.yml` compila, executa os testes e publica `d
 Consulte `THIRD_PARTY_NOTICES.md` e `asset-sources.json` para origem, versões e licenças dos assets.
 
 A trilha de instalação inclui exemplos visuais no robô para Writer, Calc e Impress. Sua missão 8 ensina a corrigir B2 de 10 para 15 e salvar/reabrir a planilha, sem exigir fórmulas. Nomes nas atividades aceitam diferenças de maiúsculas fora da lição de capitalização, e a pesquisa aceita selecionar o aplicativo antes de digitar o nome completo. O guia de botão direito inclui o toque com dois dedos no Chromebook. Aparência oferece os fundos Ubuntu, Blue Lock e Berserk, com escolha persistida e imagens locais.
+
+Em Configurações → Perfil, o aluno salva nome ou apelido e escolhe um dos cinco avatares de animais. Nome e avatar aparecem na próxima entrada e ficam salvos no mesmo navegador. As missões 12 e 13 da trilha de adaptação ensinam a trocar o papel de parede e personalizar o perfil. Aparência oferece nove fundos locais.

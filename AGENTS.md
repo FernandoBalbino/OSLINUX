@@ -10,7 +10,7 @@
 - The beginner trail has exactly 20 sequential missions, the original OSLab robot, event/state validation, and a three-option review with explained red/green feedback. Do not replace practice with direct completion buttons.
 - The /slide presentation follows Aula-TCP-UDP, introduces Linux and Ubuntu with Windows comparisons, and ends by highlighting the exact trail icon. The five added missions cover Wi-Fi, brightness, a sum, App Center and a simulated Chrome .deb download.
 - System context menus must replace the browser menu inside the desktop. Preserve smooth transitions and reduced-motion support.
-- Before every normal simulator session, show an Ubuntu GDM-style greeter with the single Aluno profile, no password field, and only an Entrar action. Request browser fullscreen directly in that click. Keep /slide independent; its final link goes through login before opening the trail. Deterministic desktop QA scenes may bypass login; ?qa=login captures it.
+- Before every normal simulator session, show an Ubuntu GDM-style greeter with the single local profile (Aluno by default, then the saved display name and avatar), no password field, and only an Entrar action. Request browser fullscreen directly in that click. Keep /slide independent; its final link goes through login before opening the trail. Deterministic desktop QA scenes may bypass login; ?qa=login captures it.
 
 Run the local server yourself and open the preview in the browser available to this environment. Do not give the user server-start instructions when you can run it.
 
@@ -25,7 +25,7 @@ Build app UI in `src/`. Keep `.openai/hosting.json`, `worker/index.js`, `scripts
 
 ## Trilhas e LibreOffice
 
-- Preserve the three independently accessible trails: 20 beginner missions, 11 Windows-to-Ubuntu missions, and 12 installation/LibreOffice missions. Keep sequential unlocking inside each trail, independent saved progress, and only one active guide robot.
+- Preserve the three independently accessible trails: 20 beginner missions, 13 Windows-to-Ubuntu missions, and 12 installation/LibreOffice missions. Keep sequential unlocking inside each trail, independent saved progress, and only one active guide robot.
 - The migration and installation trails use their own generated icons, matching the existing rounded 3D visual language. Reuse each exact icon across desktop, grid, windows and slides.
 - Writer, Calc and Impress have distinct Portuguese interfaces and functional basic editing. Store documents in the shared virtual filesystem, preserve formatting/formulas/slides when copied or renamed, and never remove documents when uninstalling software.
 - /slide2 is a separate 19-slide image-led lesson covering both new trails. Preserve /slide, local screenshots, clear arrows, offline entry and links through the Aluno greeter to the correct trail.
@@ -43,3 +43,9 @@ Build app UI in `src/`. Keep `.openai/hosting.json`, `worker/index.js`, `scripts
 - Blue Lock e Berserk, fornecidos pelo usuário, são opções locais de papel de parede em Aparência. Preservar os padrões Ubuntu e a escolha persistida, também offline.
 
 - A missão 8 de Instalação de Programas é “Atualize e salve sua planilha”: alterar B2 de 10 para 15, salvar, fechar e reabrir. Não exigir fórmulas nesta trilha básica; manter 12 missões e os progressos existentes. A aula /slide2 acompanha essa simplificação.
+
+## Perfil e novas atividades de personalização
+
+- Do Windows ao Ubuntu tem 13 missões: preservar as 11 anteriores e acrescentar trocar o papel de parede e personalizar nome/avatar nas posições 12 e 13. São 45 missões ao todo. Manter as mesmas chaves de progresso.
+- Configurações → Perfil permite salvar nome ou apelido (até 40 caracteres) e escolher entre cinco avatares originais gerados com imagegen, além do padrão Ubuntu. O perfil é único, sem senha, persistido no navegador e compartilhado com a entrada, a tela bloqueada e Sistema. O nome de exibição não renomeia a pasta /home/aluno.
+- Preservar os quatro fundos existentes e adicionar os cinco anexos de 27/10/2026 como opções locais. A galeria de nove fundos quebra em colunas e rola verticalmente. Não trocar o fundo automaticamente para preparar a missão.

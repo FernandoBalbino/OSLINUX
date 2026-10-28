@@ -829,6 +829,66 @@
       "source": "User-provided attachment 1377511.jpg, 2026-10-27",
       "license": "User-provided artwork; copyright belongs to original rights holders",
       "sha256": "a9e4b8978e7a220326300d54cc0f901bc22e0cd111b85e102c19bfb2918ab0fd"
+    },
+    {
+      "file": "profiles/avatar-fox.png",
+      "source": "OpenAI Image Generation, 2026-10-27; original softly shaded animal profile avatar",
+      "license": "Generated project artwork",
+      "sha256": "3ed07ffa5d61d7df97986013baae5f139cf73c23aeb20875dfdf2175f5ec7dfa"
+    },
+    {
+      "file": "profiles/avatar-cat.png",
+      "source": "OpenAI Image Generation, 2026-10-27; original softly shaded animal profile avatar",
+      "license": "Generated project artwork",
+      "sha256": "165a913a222d5eca3a0759561d72f190c7404d6256de79cd8f644447e7d281fc"
+    },
+    {
+      "file": "profiles/avatar-owl.png",
+      "source": "OpenAI Image Generation, 2026-10-27; original softly shaded animal profile avatar",
+      "license": "Generated project artwork",
+      "sha256": "304d3671c08fa1c3f5cd7609b26b5db90a92154fd17489568309c3c7083c89c9"
+    },
+    {
+      "file": "profiles/avatar-panda.png",
+      "source": "OpenAI Image Generation, 2026-10-27; original softly shaded animal profile avatar",
+      "license": "Generated project artwork",
+      "sha256": "337590d961ec5e64829264d83aba2584618f917386b8b9f878061f6ff32dd2ed"
+    },
+    {
+      "file": "profiles/avatar-raccoon.png",
+      "source": "OpenAI Image Generation, 2026-10-27; original softly shaded animal profile avatar",
+      "license": "Generated project artwork",
+      "sha256": "666fcf353671f237f650feb4cb9485c7a805c64cde172986797d92089225f3e7"
+    },
+    {
+      "file": "wallpapers/futebol.jpeg",
+      "source": "User-provided attachment thumb-1920-1327049.jpeg, 2026-10-27",
+      "license": "User-provided artwork; copyright belongs to original rights holders",
+      "sha256": "303608c1f188355e36e147e956d0c415ecc581c387a911eed3ed15ef821d6120"
+    },
+    {
+      "file": "wallpapers/pop-claro.jpg",
+      "source": "User-provided attachment 1244408.jpg, 2026-10-27",
+      "license": "User-provided artwork; copyright belongs to original rights holders",
+      "sha256": "62e6a9a986979a305e77eb226f5ee0421eaa2703b83679ac976c7111a25449dd"
+    },
+    {
+      "file": "wallpapers/musica-assinaturas.jpg",
+      "source": "User-provided attachment 853203.jpg, 2026-10-27",
+      "license": "User-provided artwork; copyright belongs to original rights holders",
+      "sha256": "9c29d56cc60af9efb794df4279ab60a8b98f3c8249760f3f4c1355744d6d2620"
+    },
+    {
+      "file": "wallpapers/arco-iris-rosa.jpg",
+      "source": "User-provided attachment lgbtq-pink-8000x4500-11521.jpg, 2026-10-27",
+      "license": "User-provided artwork; copyright belongs to original rights holders",
+      "sha256": "28c45004fa5f479695382ea7a3a1b65e90bc0741894f1cd46d1dfe2c26b11b45"
+    },
+    {
+      "file": "wallpapers/mascara-tatica.jpg",
+      "source": "User-provided attachment thumb-1920-1245270.jpg, 2026-10-27",
+      "license": "User-provided artwork; copyright belongs to original rights holders",
+      "sha256": "cdac3562b5d423e345bae58d5ce858f30deb6c3416dec5d3fe580544162eba10"
     }
   ]
 }

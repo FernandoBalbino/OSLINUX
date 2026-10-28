@@ -49,3 +49,9 @@ As capturas lesson2-*.jpg foram obtidas do OSLINUX local, durante as atividades 
 A ilustração chromebook-two-finger-tap.png foi gerada com Image Generation para mostrar um toque simultâneo com indicador e dedo médio no centro de um touchpad. O gesto foi conferido na ajuda oficial do Chromebook: https://support.google.com/chromebook/answer/1047367?hl=pt-BR. A explicação é texto acessível do simulador.
 
 Os fundos opcionais blue-lock.jpeg e berserk.jpg são as imagens originais fornecidas pelo usuário em 27/10/2026 (1319752.jpeg e 1377511.jpg). As obras, personagens e marcas pertencem aos respectivos titulares; seu fornecimento não transfere direitos autorais nem implica endosso.
+
+## Avatares e fundos adicionais de perfil
+
+Os cinco avatares em public/assets/profiles/avatar-{fox,cat,owl,panda,raccoon}.png foram criados com a ferramenta integrada OpenAI Image Generation: retratos quadrados originais de raposa, gato com fones, coruja com óculos, panda e guaxinim, em ilustração 3D suave sobre fundos pastel, sem texto ou marcas. Cada imagem foi gerada separadamente. Os prompts completos estão em public/assets/profiles/prompts.json.
+
+Os cinco fundos adicionais (futebol.jpeg, pop-claro.jpg, musica-assinaturas.jpg, arco-iris-rosa.jpg e mascara-tatica.jpg) são cópias dos anexos fornecidos pelo usuário em 27/10/2026. Obras, marcas e direitos de imagem pertencem aos respectivos titulares. Os nomes e hashes originais estão em asset-sources.json.

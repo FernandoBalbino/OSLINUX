@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build && node scripts/prepare-routes.mjs && node scripts/prepare-offline.mjs && node scripts/prepare-sites-build.mjs",
-    "test": "node --test tests/model.test.mjs tests/missions.test.mjs tests/packages.test.mjs tests/fullscreen.test.mjs tests/sites-worker.test.mjs tests/office-trails.test.mjs tests/slides-routes.test.mjs tests/office-qa.test.mjs tests/learning-usability.test.mjs",
+    "test": "node --test tests/model.test.mjs tests/missions.test.mjs tests/packages.test.mjs tests/fullscreen.test.mjs tests/sites-worker.test.mjs tests/office-trails.test.mjs tests/slides-routes.test.mjs tests/office-qa.test.mjs tests/learning-usability.test.mjs tests/profile.test.mjs",
     "preview": "vite preview",
     "test:sites": "node --test tests/sites-worker.test.mjs"
   },

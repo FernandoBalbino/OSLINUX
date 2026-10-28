@@ -1,0 +1,42 @@
+{
+  "tool": "OpenAI built-in Image Generation",
+  "date": "2026-10-27",
+  "style": "Original square animal profile portraits; softly shaded 3D clay illustration, pastel backgrounds, centered head and shoulders, readable at 48 px, circular crop safe, no text or brands",
+  "subjects": [
+    {
+      "id": "fox",
+      "name": "Raposa",
+      "subject": "a cheerful orange fox with cream muzzle and upright ears, wearing a small violet hoodie",
+      "bg": "pale lavender",
+      "prompt": "Use case: character avatar for a Portuguese educational Ubuntu desktop simulator. Create ONE original square 1024x1024 profile avatar: a cheerful orange fox with cream muzzle and upright ears, wearing a small violet hoodie. Consistent polished softly shaded 3D clay illustration style with rounded forms, clean edges and a bold silhouette readable at 48px. Front-facing head and upper shoulders, centered, filling 75% of the square with generous safe margins suitable for circular cropping. Solid pale lavender background, soft studio lighting, warm approachable school-friendly mood. No text, letters, numbers, logos, watermark, scenery, frames, contact sheet or extra characters."
+    },
+    {
+      "id": "cat",
+      "name": "Gato",
+      "subject": "a friendly gray cat with turquoise over-ear headphones, big expressive eyes and a tiny smile",
+      "bg": "pale mint",
+      "prompt": "Use case: character avatar for a Portuguese educational Ubuntu desktop simulator. Create ONE original square 1024x1024 profile avatar: a friendly gray cat with turquoise over-ear headphones, big expressive eyes and a tiny smile. Consistent polished softly shaded 3D clay illustration style with rounded forms, clean edges and a bold silhouette readable at 48px. Front-facing head and upper shoulders, centered, filling 75% of the square with generous safe margins suitable for circular cropping. Solid pale mint background, soft studio lighting, warm approachable school-friendly mood. No text, letters, numbers, logos, watermark, scenery, frames, contact sheet or extra characters."
+    },
+    {
+      "id": "owl",
+      "name": "Coruja",
+      "subject": "a friendly purple owl with round amber glasses, cream face feathers and a cheerful curious expression",
+      "bg": "pale peach",
+      "prompt": "Use case: character avatar for a Portuguese educational Ubuntu desktop simulator. Create ONE original square 1024x1024 profile avatar: a friendly purple owl with round amber glasses, cream face feathers and a cheerful curious expression. Consistent polished softly shaded 3D clay illustration style with rounded forms, clean edges and a bold silhouette readable at 48px. Front-facing head and upper shoulders, centered, filling 75% of the square with generous safe margins suitable for circular cropping. Solid pale peach background, soft studio lighting, warm approachable school-friendly mood. No text, letters, numbers, logos, watermark, scenery, frames, contact sheet or extra characters."
+    },
+    {
+      "id": "panda",
+      "name": "Panda",
+      "subject": "a smiling black and white panda with a small orange neck scarf, rounded ears and gentle eyes",
+      "bg": "pale sky blue",
+      "prompt": "Use case: character avatar for a Portuguese educational Ubuntu desktop simulator. Create ONE original square 1024x1024 profile avatar: a smiling black and white panda with a small orange neck scarf, rounded ears and gentle eyes. Consistent polished softly shaded 3D clay illustration style with rounded forms, clean edges and a bold silhouette readable at 48px. Front-facing head and upper shoulders, centered, filling 75% of the square with generous safe margins suitable for circular cropping. Solid pale sky blue background, soft studio lighting, warm approachable school-friendly mood. No text, letters, numbers, logos, watermark, scenery, frames, contact sheet or extra characters."
+    },
+    {
+      "id": "raccoon",
+      "name": "Guaxinim",
+      "subject": "a curious friendly raccoon with gray fur, dark eye mask, small teal scarf and softly rounded ears",
+      "bg": "pale warm yellow",
+      "prompt": "Use case: character avatar for a Portuguese educational Ubuntu desktop simulator. Create ONE original square 1024x1024 profile avatar: a curious friendly raccoon with gray fur, dark eye mask, small teal scarf and softly rounded ears. Consistent polished softly shaded 3D clay illustration style with rounded forms, clean edges and a bold silhouette readable at 48px. Front-facing head and upper shoulders, centered, filling 75% of the square with generous safe margins suitable for circular cropping. Solid pale warm yellow background, soft studio lighting, warm approachable school-friendly mood. No text, letters, numbers, logos, watermark, scenery, frames, contact sheet or extra characters."
+    }
+  ]
+}

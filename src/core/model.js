@@ -1,3 +1,4 @@
+import {defaultProfile,resolveProfile,validateProfileName,avatarById} from './profile.js';
 import {validateOffice,officeText} from './office.js';
 import {favorites as defaultFavorites} from './catalog.js';
 import {packageById,CHROME_PACKAGE} from './packages.js';
@@ -19,7 +20,7 @@ export function seedState() {
   const nodes = { '/': { type: 'folder' }, '/home': { type: 'folder' }, [HOME]: { type: 'folder' } };
   for (const dir of ['Área de Trabalho','Documentos','Downloads','Música','Imagens','Público','snap','Modelos','Vídeos']) nodes[HOME + '/' + dir] = { type: 'folder' };
   nodes[HOME + '/Documentos/Boas-vindas.txt'] = { type: 'file', content: 'Bem-vindo ao OSLINUX!\n\nEste é o seu computador Ubuntu simulado.\nCrie uma pasta em Arquivos ou experimente mkdir no Terminal.\nOs arquivos são compartilhados entre os aplicativos.\n' };
-  return { version: 1, nodes, trash: [], preferences: { ...preferences }, history: [], installed: [], favorites:[...defaultFavorites] };
+  return { version: 1, nodes, trash: [], preferences: { ...preferences }, profile:{...defaultProfile}, history: [], installed: [], favorites:[...defaultFavorites] };
 }
 export function createEventBus() {
   const handlers = new Map();
@@ -28,6 +29,7 @@ export function createEventBus() {
 export function createStore(storage, isolated = false) {
   let state = seedState();
   if (!isolated) { try { const saved = JSON.parse(storage?.getItem(STORAGE_KEY) || 'null'); if (saved?.version === 1 && saved.nodes?.[HOME]?.type === 'folder' && Array.isArray(saved.trash) && Array.isArray(saved.history)) state = { ...saved, preferences: { ...preferences, ...saved.preferences } }; } catch { /* Invalid saved data cannot prevent boot. */ } }
+  state.profile=resolveProfile(state.profile);
   state.installed=Array.isArray(state.installed)?state.installed.filter(id=>packageById(id)):[];
   state.favorites=Array.isArray(state.favorites)?state.favorites.filter(id=>typeof id==='string'):[...defaultFavorites];
   const listeners = new Set(); const events = createEventBus();
@@ -65,7 +67,8 @@ export function createStore(storage, isolated = false) {
     },
     uninstallPackage(id) { if(!packageById(id))throw Error('Aplicativo não encontrado.');return update('app:uninstalled',next=>{next.installed=next.installed.filter(item=>item!==id);const ids=packageById(id).apps||[id];next.favorites=next.favorites.filter(item=>!ids.includes(item));return {appId:id,packageId:id};}); },
     setFavorite(appId,value) { return update('favorite:changed',next=>{next.favorites=next.favorites.filter(id=>id!==appId);if(value)next.favorites.push(appId);return {appId,value};}); },
-    setPreferences(patch) { return update('preferences:changed',next=>{ Object.assign(next.preferences,patch); if(patch.airplane===true){next.preferences.wifi=false;next.preferences.bluetooth=false;} return patch; }); }, visit(url) { return update('browser:visited',next=>{next.history=[{url,date:Date.now()},...next.history.filter(x=>x.url!==url)].slice(0,100);return {url};}); }, reset() { return update('system:reset',next=>Object.assign(next,seedState())); } };
+    setProfile(patch,metadata={}) { const current=state.profile;const name=validateProfileName(patch.name??current.name),avatar=patch.avatar??current.avatar;if(avatar!=='default'&&!avatarById(avatar))throw Error('Escolha um avatar disponível.');return update('profile:changed',next=>{const changed=['name','avatar'].filter(key=>next.profile[key]!==({name,avatar})[key]);next.profile={name,avatar};return{source:metadata.source,section:metadata.section,windowId:metadata.windowId,name,avatar,changed};}); },
+    setPreferences(patch,metadata={}) { return update('preferences:changed',next=>{ Object.assign(next.preferences,patch); if(patch.airplane===true){next.preferences.wifi=false;next.preferences.bluetooth=false;} return {...patch,source:metadata.source,section:metadata.section,windowId:metadata.windowId}; }); }, visit(url) { return update('browser:visited',next=>{next.history=[{url,date:Date.now()},...next.history.filter(x=>x.url!==url)].slice(0,100);return {url};}); }, reset() { return update('system:reset',next=>Object.assign(next,seedState())); } };
 }
 function tokenize(input) {
   const tokens=[]; let token='', quote=null, active=false;
