@@ -6,3 +6,6 @@ dist/
 .env.*
 !.env.example
 qa/references/original-*.png
+video/assets/
+video/renders/
+video/.hyperframes/

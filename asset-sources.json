@@ -741,6 +741,12 @@
       "sha256": "c2548d7dc3fbad83e2f76304068b018b82c35c40d2958c4768444078ff29e96c"
     },
     {
+      "file": "learning/terminal-trail-icon.svg",
+      "source": "Hand-written SVG for this project, matching the trail icon style",
+      "license": "Project educational artwork",
+      "sha256": "529e88fb8cbf1b415c496c3fc9968e719cb0404a508d257c82738086ba14bcac"
+    },
+    {
       "file": "learning/lesson2-apps.jpg",
       "source": "OSLINUX local browser capture",
       "license": "Project educational artwork",

@@ -10,7 +10,7 @@ const FILES=${JSON.stringify(['./',...files])};
 self.addEventListener('install',event=>event.waitUntil(caches.open(CACHE).then(cache=>cache.addAll(FILES.map(file=>new Request(new URL(file,self.location).href,{cache:'reload'})))).then(()=>self.skipWaiting())));
 self.addEventListener('activate',event=>event.waitUntil(caches.keys().then(keys=>Promise.all(keys.filter(key=>key.startsWith('oslinux-offline-')&&key!==CACHE).map(key=>caches.delete(key)))).then(()=>self.clients.claim())));
 self.addEventListener('fetch',event=>{if(event.request.method!=='GET'||new URL(event.request.url).origin!==self.location.origin)return;
-event.respondWith(event.request.mode==='navigate'?fetch(event.request,{cache:'no-store'}).catch(()=>caches.match(new URL(({'slide':'./slide/index.html','slide2':'./slide2/index.html'}[new URL(event.request.url).pathname.split('/').filter(Boolean).at(-1)]||'./index.html'),self.location).href)):caches.match(event.request).then(cached=>cached||fetch(event.request)));});
+event.respondWith(event.request.mode==='navigate'?fetch(event.request,{cache:'no-store'}).catch(()=>caches.match(new URL(({'slide':'./slide/index.html','slide2':'./slide2/index.html','slide3':'./slide3/index.html'}[new URL(event.request.url).pathname.split('/').filter(Boolean).at(-1)]||'./index.html'),self.location).href)):caches.match(event.request).then(cached=>cached||fetch(event.request)));});
 `;
 writeFileSync(path.join(root,'service-worker.js'),source);
 writeFileSync(path.join(root,'precache-manifest.json'),JSON.stringify({cache:`oslinux-offline-${hash}`,files},null,2));

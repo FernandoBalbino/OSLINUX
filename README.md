@@ -26,7 +26,7 @@ O ícone exclusivo no desktop, dock e grade abre uma trilha de 15 missões: abri
 
 ## Novas trilhas
 
-Do Windows ao Ubuntu tem 13 missões sobre grade, favoritos, Atividades, caminhos, maiúsculas, arquivos ocultos e instalação. Instalação de Programas tem 12 missões com pesquisa, instalação, Writer, Calc, Impress e reinstalação preservando os trabalhos. São 45 missões nas três trilhas, com acesso livre e progresso independente. Os links `?trilha=1`, `?trilha=2` e `?trilha=3` passam pelo perfil Aluno antes de abrir a atividade.
+Do Windows ao Ubuntu tem 13 missões sobre grade, favoritos, Atividades, caminhos, maiúsculas, arquivos ocultos e instalação. Instalação de Programas tem 12 missões com pesquisa, instalação, Writer, Calc, Impress e reinstalação preservando os trabalhos. Primeiros passos no Terminal tem 12 missões curtas com help, whoami, pwd, ls, cd, mkdir, touch, echo, cat, cp, mv, rm, Tab, seta e clear. São 57 missões nas quatro trilhas, com acesso livre e progresso independente. Os links `?trilha=1` a `?trilha=4` passam pelo perfil Aluno antes de abrir a atividade.
 
 Writer oferece texto formatado, alinhamento, listas, desfazer/refazer e salvamento. Calc oferece células A1:Z100, fórmulas aritméticas, referências, SOMA e MÉDIA. Impress oferece vários slides, temas e apresentação. Documentos são estruturas educativas locais com nomes .odt/.ods/.odp; não são arquivos binários Office para importação/exportação. Desinstalar a suíte preserva os trabalhos.
 

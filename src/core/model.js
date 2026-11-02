@@ -76,6 +76,11 @@ function tokenize(input) {
   if(quote)throw Error('Aspas não fechadas.');if(active)tokens.push(token);return tokens;
 }
 export function executeTerminal(store, input, cwd=HOME) {
+  const result=runTerminal(store,input,cwd);let args=[];try{args=tokenize(input);}catch{}
+  if(args.length)store.events.emit('terminal:command',{command:args[0],args:args.slice(1),from:cwd,cwd:result.cwd,error:Boolean(result.error)});
+  return result;
+}
+function runTerminal(store, input, cwd) {
   try {
     const args=tokenize(input); const command=args.shift(); if(!command)return{output:'',cwd};
     const path=(value='.')=>normalize(value,cwd); const need=()=>{if(!args[0])throw Error('Informe um caminho.');}; let output='';

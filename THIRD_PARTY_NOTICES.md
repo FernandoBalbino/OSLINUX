@@ -55,3 +55,5 @@ Os fundos opcionais blue-lock.jpeg e berserk.jpg são as imagens originais forne
 Os cinco avatares em public/assets/profiles/avatar-{fox,cat,owl,panda,raccoon}.png foram criados com a ferramenta integrada OpenAI Image Generation: retratos quadrados originais de raposa, gato com fones, coruja com óculos, panda e guaxinim, em ilustração 3D suave sobre fundos pastel, sem texto ou marcas. Cada imagem foi gerada separadamente. Os prompts completos estão em public/assets/profiles/prompts.json.
 
 Os cinco fundos adicionais (futebol.jpeg, pop-claro.jpg, musica-assinaturas.jpg, arco-iris-rosa.jpg e mascara-tatica.jpg) são cópias dos anexos fornecidos pelo usuário em 27/10/2026. Obras, marcas e direitos de imagem pertencem aos respectivos titulares. Os nomes e hashes originais estão em asset-sources.json.
+
+O ícone terminal-trail-icon.svg foi desenhado em SVG para este projeto, no mesmo estilo arredondado dos ícones das trilhas.

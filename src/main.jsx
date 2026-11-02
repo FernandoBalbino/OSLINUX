@@ -3,6 +3,7 @@ import { createRoot } from "react-dom/client";
 import {Session} from './ui/Session.jsx';
 import {Slides2} from './slides/Slides2.jsx';
 import {Slides} from './slides/Slides.jsx';
+import {Slides3} from './slides/Slides3.jsx';
 import "./desktop.css";
 import "./refinements.css";
 import "./motion.css";
@@ -15,6 +16,6 @@ if (import.meta.env.PROD && !new URLSearchParams(location.search).has('qa') && '
 
 createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    {/\/slide\/?$/.test(location.pathname)?<Slides/>:/\/slide2\/?$/.test(location.pathname)?<Slides2/>:<Session />}
+    {/\/slide\/?$/.test(location.pathname)?<Slides/>:/\/slide2\/?$/.test(location.pathname)?<Slides2/>:/\/slide3\/?$/.test(location.pathname)?<Slides3/>:<Session />}
   </React.StrictMode>,
 );
