@@ -54,10 +54,10 @@ Build app UI in `src/`. Keep `.openai/hosting.json`, `worker/index.js`, `scripts
 
 - Primeiros passos no Terminal tem 12 missões curtas para alunos com dificuldade: help, whoami/pwd, ls, cd, cd .., mkdir, touch, echo/cat, cp, mv, rm e Tab/seta/clear. Cada missão mostra no robô um exemplo do Terminal com o comando em verde, a resposta esperada e como voltar ao início (cd). Linguagem simples, um comando de cada vez, sem opções avançadas.
 - A validação usa o evento terminal:command emitido por executeTerminal e os eventos de Tab e seta do próprio Terminal. Os nomes de prática não têm espaços (treino, notas.txt, copia.txt, resumo.txt); ao refazer, usar o próximo nome livre (treino2…).
-- /slide3 é uma aula curta (7 slides) sobre o que é o Terminal e para que serve, no visual claro da /slide2, terminando no convite para a trilha 4.
+- /slide3 é uma aula curta (8 slides) sobre o que é o Terminal e para que serve, no visual claro da /slide2: o slide 7 convida para a trilha 4 e o slide 8 mostra o vídeo do Terminal (`public/assets/video/`, fora do cache offline).
 
 ## Vídeo do Terminal
 
-- O vídeo fica em `video/` e é feito com HyperFrames local (HTML + GSAP), com FFmpeg/FFprobe de `ffmpeg-static` e `ffprobe-static`. `npm run render` gera `video/renders/terminal-oslinux.mp4` (1920×1080, 30 fps) para a TV da sala.
+- O vídeo fica em `video/` e é feito com HyperFrames local (HTML + GSAP), com FFmpeg/FFprobe de `ffmpeg-static` e `ffprobe-static`. `npm run render` gera `video/renders/terminal-oslinux.mp4` (1920×1080, 30 fps) para a TV da sala e publica a cópia e a capa em `public/assets/video/`.
 - Sem legendas na tela: só a voz. Narração da voz Amanndev (ElevenLabs, Eleven v4), um arquivo por cena em `video/narracao/` com os nomes de `video/roteiro.md`; o `build.mjs` mede cada áudio e ajusta o tempo das cenas.
 - O Terminal é o foco: fonte grande, giro 3D com zoom antes de cada comando, cursor grande com som de clique, digitação com som de tecla e comparação "Sem o Terminal × Com o Terminal". Transições suaves, sem saltos de rotação.

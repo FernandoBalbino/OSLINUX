@@ -3,7 +3,8 @@ import path from 'node:path';
 import {createHash} from 'node:crypto';
 const root=path.resolve('dist/client');
 function walk(dir){return readdirSync(dir,{withFileTypes:true}).flatMap(entry=>entry.isDirectory()?walk(path.join(dir,entry.name)):[path.join(dir,entry.name)]);}
-const files=walk(root).filter(file=>!['service-worker.js','precache-manifest.json'].includes(path.basename(file))).map(file=>'./'+path.relative(root,file).replaceAll('\\','/'));
+// O vídeo da aula (~45 MB) toca pela rede; não entra no cache offline dos Chromebooks.
+const files=walk(root).filter(file=>!['service-worker.js','precache-manifest.json'].includes(path.basename(file))&&!file.endsWith('.mp4')).map(file=>'./'+path.relative(root,file).replaceAll('\\','/'));
 const hash=createHash('sha256').update('oslinux-routes-v4').update(files.map(file=>createHash('sha256').update(readFileSync(path.resolve(root,file))).digest('hex')).join('')).digest('hex').slice(0,12);
 const source=`const CACHE='oslinux-offline-${hash}';
 const FILES=${JSON.stringify(['./',...files])};

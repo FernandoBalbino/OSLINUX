@@ -18,3 +18,4 @@
 .lesson3-commands code{display:block;font:700 clamp(20px,1.7vw,28px) 'Ubuntu Sans Mono',monospace;color:#8ae234}.lesson3-commands p{font-size:clamp(14px,1.15vw,18px);color:#f0e8f5;margin-top:4px}
 @media (max-width:760px){.lesson3-chat,.lesson3-compare{grid-template-columns:1fr}.lesson3-chat>b,.lesson3-compare>b{justify-self:center;transform:rotate(90deg)}.lesson3-cards{grid-template-columns:1fr 1fr}}
 @media (prefers-reduced-motion:reduce){.lesson3-prompt span{animation:none}}
+.lesson3-video{align-items:center}.lesson3-video video{display:block;width:min(100%,1100px,calc(58vh * 16 / 9));aspect-ratio:16/9;border-radius:16px;background:#131313;box-shadow:0 18px 40px #0004}
