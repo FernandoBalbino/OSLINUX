@@ -61,3 +61,12 @@ Build app UI in `src/`. Keep `.openai/hosting.json`, `worker/index.js`, `scripts
 - O vídeo fica em `video/` e é feito com HyperFrames local (HTML + GSAP), com FFmpeg/FFprobe de `ffmpeg-static` e `ffprobe-static`. `npm run render` gera `video/renders/terminal-oslinux.mp4` (1920×1080, 30 fps) para a TV da sala e publica a cópia e a capa em `public/assets/video/`.
 - Sem legendas na tela: só a voz. Narração da voz Amanndev (ElevenLabs, Eleven v4), um arquivo por cena em `video/narracao/` com os nomes de `video/roteiro.md`; o `build.mjs` mede cada áudio e ajusta o tempo das cenas.
 - O Terminal é o foco: fonte grande, giro 3D com zoom antes de cada comando, cursor grande com som de clique, digitação com som de tecla e comparação "Sem o Terminal × Com o Terminal". Transições suaves, sem saltos de rotação.
+
+## Trilha Kit essencial do Linux
+
+- A trilha 5 (`?trilha=5`, chave `oslinux.learning.kit.v1`) tem 12 missões fáceis com os programas que todo usuário de Linux instala: sudo apt update, VLC pelo Terminal, Abrir com VLC, GIMP pela Central, VS Code pelo site (.deb), página HTML no VS Code, OBS, Audacity, fastfetch, KeePassXC, Timeshift e apt upgrade/remove. Ensina as três formas de instalar: Terminal, Central e site.
+- Cada programa tem uma interface simples e funcional só para a tarefa da missão (`src/apps/Kit.jsx`); nada de botões que não fazem nada. A validação usa eventos dos apps e o `terminal:command`.
+- O Terminal aceita `sudo apt update | install | remove | upgrade | autoremove` e `fastfetch`. O sudo não pede senha (o robô explica a senha do Ubuntu real). Nomes de pacote só em minúsculas; sem sudo, responde Permissão negada; sem Wi-Fi, falha.
+- A página do VS Code já vem pronta (`src/core/kit.js`): o aluno troca só a linha 5 pelo nome, salva e clica em Ver no navegador. O Firefox mostra arquivos `file://` em iframe com sandbox, sem scripts.
+- O KeePassXC só aceita senhas geradas pelo botão Gerar senha; o campo de senha não é digitável, para os alunos não digitarem senhas reais.
+- Remover um programa pelo Terminal mantém a janela aberta (como no Linux real) e nunca apaga arquivos do aluno. Os arquivos de prática (video-aula.mp4, foto-ubuntu.jpg, gravacao.wav) são criados uma vez e nunca substituem um arquivo do aluno com o mesmo nome.

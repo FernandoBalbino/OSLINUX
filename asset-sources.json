@@ -895,6 +895,72 @@
       "source": "User-provided attachment thumb-1920-1245270.jpg, 2026-10-27",
       "license": "User-provided artwork; copyright belongs to original rights holders",
       "sha256": "cdac3562b5d423e345bae58d5ce858f30deb6c3416dec5d3fe580544162eba10"
+    },
+    {
+      "file": "apps/vlc.png",
+      "source": "https://raw.githubusercontent.com/videolan/vlc/c6d1df39c7a52ff2caa582521ca61db081fa525e/share/icons/256x256/vlc.png",
+      "license": "GPL-2.0-or-later (VideoLAN); VLC is a trademark of VideoLAN",
+      "sha256": "a1ccd4a5006713dc65ad84f41281ce732c23533555debc4e71f6457bb26b8fa1"
+    },
+    {
+      "file": "apps/gimp.svg",
+      "source": "https://raw.githubusercontent.com/GNOME/gimp-data/dba1b6d3d5e0703c5337c9ec32805ac017dc1270/images/logo/gimp-logo.svg",
+      "license": "GPL-3.0-or-later (GIMP project)",
+      "sha256": "f16e91ac7ad855e30e5bf7b14eb734ece683ea65c743fb5ccdb7514aa2f549c6"
+    },
+    {
+      "file": "apps/vscode.svg",
+      "source": "https://commons.wikimedia.org/wiki/File:Visual_Studio_Code_1.35_icon.svg",
+      "license": "Public domain on Wikimedia Commons; Visual Studio Code is a trademark of Microsoft",
+      "sha256": "4c4dd46cc5892a947901fbcdc96ee4caf4c9eb341779b2b0589d8a2bbff436ba"
+    },
+    {
+      "file": "apps/obs-studio.svg",
+      "source": "https://raw.githubusercontent.com/obsproject/obs-studio/7a25c3fd8b5eb87c2d2e0606cae36e32014bc6fa/frontend/cmake/linux/icons/obs-logo-scalable.svg",
+      "license": "GPL-2.0-or-later (OBS Project)",
+      "sha256": "d879e0ce0d6a181af4fe5582230f63a70f3ed5ff33a09debe0ddd83b239f4b2b"
+    },
+    {
+      "file": "apps/audacity.svg",
+      "source": "https://raw.githubusercontent.com/audacity/audacity/f51738cd5a7daa8c0c1012cf3ea44242f4b33ca2/images/audacity.svg",
+      "license": "GPL-3.0 (Audacity Team); Audacity is a trademark of Muse Group",
+      "sha256": "11bbf18109ab988ca750d97cdb48ad1684271b73595f2adb648a46ef684ae3ae"
+    },
+    {
+      "file": "apps/keepassxc.svg",
+      "source": "https://raw.githubusercontent.com/keepassxreboot/keepassxc/c263a116d96326a07efb3ea9de47f7b917f82687/share/icons/application/scalable/apps/keepassxc.svg",
+      "license": "GPL-2.0/GPL-3.0 (KeePassXC Team)",
+      "sha256": "46ac2bd17caa6d0b06bfb15c0692ed08d27245c8636d88b5a70fa2c484a8d11a"
+    },
+    {
+      "file": "apps/timeshift.png",
+      "source": "https://raw.githubusercontent.com/linuxmint/timeshift/0c311a4775a811f26df1162516f6b5ab93577acf/src/share/icons/hicolor/128x128/apps/timeshift.png",
+      "license": "GPL-2.0-or-later (Linux Mint)",
+      "sha256": "31cf9443e30728d50d983dbc6de9acd4d28e022a5e596a4d0bf2951306ed4f51"
+    },
+    {
+      "file": "mimetypes/video-x-generic.png",
+      "source": "https://raw.githubusercontent.com/ubuntu/yaru/7f18973e05607c609c4b972f0dd9bff36fa2a13e/icons/Yaru/256x256/mimetypes/video-x-generic.png",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "3f066d67faed96b3b0d99efc3d69d221bec909c45d2107d4f7df2b14c78bc982"
+    },
+    {
+      "file": "mimetypes/image-x-generic.png",
+      "source": "https://raw.githubusercontent.com/ubuntu/yaru/7f18973e05607c609c4b972f0dd9bff36fa2a13e/icons/Yaru/256x256/mimetypes/image-x-generic.png",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "b0ca8011a6c29255ca57ae0b61b6d3832104a4373d60992810af77b5fc0eaa02"
+    },
+    {
+      "file": "mimetypes/audio-x-generic.png",
+      "source": "https://raw.githubusercontent.com/ubuntu/yaru/7f18973e05607c609c4b972f0dd9bff36fa2a13e/icons/Yaru/256x256/mimetypes/audio-x-generic.png",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "de4943d5ef9603fb4ec3f24f24d302d1f8ddcb895595331f6d1ec4a0858f912a"
+    },
+    {
+      "file": "mimetypes/text-html.png",
+      "source": "https://raw.githubusercontent.com/ubuntu/yaru/7f18973e05607c609c4b972f0dd9bff36fa2a13e/icons/Yaru/256x256/mimetypes/text-html.png",
+      "license": "CC-BY-SA-4.0",
+      "sha256": "dff2f8fd96f7ca4c259c3fb165632af1054cbec0a439a0feabb31f9b44888ad9"
     }
   ]
 }

@@ -57,3 +57,11 @@ Os cinco avatares em public/assets/profiles/avatar-{fox,cat,owl,panda,raccoon}.p
 Os cinco fundos adicionais (futebol.jpeg, pop-claro.jpg, musica-assinaturas.jpg, arco-iris-rosa.jpg e mascara-tatica.jpg) são cópias dos anexos fornecidos pelo usuário em 27/10/2026. Obras, marcas e direitos de imagem pertencem aos respectivos titulares. Os nomes e hashes originais estão em asset-sources.json.
 
 O ícone terminal-trail-icon.svg foi desenhado em SVG para este projeto, no mesmo estilo arredondado dos ícones das trilhas.
+
+## Kit essencial do Linux (trilha 5)
+
+Os ícones dos programas são os ícones oficiais de cada projeto, copiados dos repositórios upstream em commits fixos: VLC (VideoLAN, GPL), GIMP (gimp-data, GPL), OBS Studio (OBS Project, GPL), Audacity (GPL), KeePassXC (GPL) e Timeshift (Linux Mint, GPL). O ícone do Visual Studio Code veio do Wikimedia Commons (arquivo Visual_Studio_Code_1.35_icon.svg, domínio público). VLC, GIMP, OBS, Audacity, KeePassXC, Timeshift e Visual Studio Code são marcas de seus titulares; os programas desta trilha são simulações educativas e não incluem código desses projetos. URLs, licenças e hashes estão em `asset-sources.json`.
+
+Os ícones de tipo de arquivo em public/assets/mimetypes/ (vídeo, imagem, áudio e HTML) são Yaru originais, CC BY-SA 4.0, do mesmo commit dos demais ícones Yaru.
+
+O vídeo public/assets/media/video-aula.webm (8 s, sem áudio) foi gerado para este projeto com o FFmpeg de `ffmpeg-static`, usando a fonte Ubuntu Sans já presente no projeto. A foto de prática foto-ubuntu.jpg reutiliza o papel de parede Resolute Raccoon. O ícone kit-trail-icon.svg foi desenhado em SVG para este projeto, no mesmo estilo arredondado dos ícones das trilhas.
